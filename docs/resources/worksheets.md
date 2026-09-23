@@ -1,110 +1,228 @@
----
-title: "แบบบันทึกกิจกรรม"
-description: "แบบบันทึกสำหรับคัดลอกหรือพิมพ์ใช้ระหว่างเวิร์กช็อป"
----
+# Batch 1 activity worksheets
 
-# แบบบันทึกกิจกรรม
+Copy these templates onto paper or print them for your group. Blank fields are for learner input, not confirmed information.
 
-> **ข้อมูลสมมติ:** ชื่อบุคคล กระบวนการ ตัวเลข และหลักฐานในหน้านี้สร้างขึ้นเพื่อการเรียนรู้ ไม่ใช่ข้อมูลจากองค์กรจริง
+## 1A. Before and after automation
 
-คัดลอกแต่ละแบบลงกระดาษหรือพิมพ์เพื่อใช้ในกลุ่ม ช่องว่างเป็นพื้นที่ให้ผู้เรียนกรอก ไม่ใช่ข้อมูลที่ยืนยันแล้ว
-
-## 1. ก่อนและหลังมี automation
-
-| สิ่งที่ต้องตอบ | บันทึกของกลุ่ม |
+| Question | Group notes |
 |---|---|
-| ขั้นตอนที่ซ้ำหรือรอ | |
-| งานที่อยากให้ระบบช่วย | |
-| การตัดสินใจที่คนยังรับผิดชอบ | |
-| ผลลัพธ์ที่ต้องตรวจ | |
-| คำถามเรื่องข้อจำกัดหรือสิทธิ์ | |
+| Which step repeats or waits? | |
+| What work could the system support? | |
+| Which decision remains with a person? | |
+| What output must be checked? | |
+| What limits or permissions need verification? | |
+
+## 1B. Scenario classification
+
+Use the exact labels from Exercise 1. Record the reason instead of relying on the label alone.
+
+| Card | Classification | Reason from the scenario | Unresolved question and verification owner |
+|---|---|---|---|
+| A | | | |
+| B | | | |
+| C | | | |
+| D | | | |
+| E | | | |
+| F | | | |
+
+## 1C. Knowledge-check correction
+
+| Question | First answer and reason | Corrected answer and reason | What must be verified, and by whom? |
+|---|---|---|---|
+| Repeated copying or undefined exceptions? | | | |
+| Do reminders alone remove a delay? | | | |
+| What must be checked before connecting a system? | | | |
+
+Known fact: __________
+
+Matter to verify: __________ Verification owner: __________
 
 ## 2. Work Friction Map
 
-กระบวนการ: __________ เริ่มเมื่อ: __________ จบเมื่อ: __________
+Process: __________ Start: __________ End: __________
 
-| ขั้นตอน | ผู้รับผิดชอบ | ข้อมูลที่รับ/ส่ง | จุดติดขัด | หลักฐานหรือสิ่งที่ยังไม่รู้ |
-|---|---|---|---|---|
-| | | | | |
-| | | | | |
-| | | | | |
-| | | | | |
-| | | | | |
+| Step | Responsible role | Information or status received | Information or status passed on | Friction | Evidence or unknowns |
+|---|---|---|---|---|---|
+| | | | | | |
+| | | | | | |
+| | | | | | |
+| | | | | | |
+| | | | | | |
+| | | | | | |
+| | | | | | |
+| | | | | | |
 
-Pain point ที่เลือกมาเปรียบเทียบ 3 เรื่อง: __________ / __________ / __________
+Three pain points to compare: A __________ / B __________ / C __________
 
 ## 3. Opportunity Selection
 
-คะแนน 1–3 เป็นเครื่องมือช่วยสนทนา ไม่ใช่สูตร ROI
+Scores from 1–3 support a discussion. They are not an ROI formula.
 
-| เกณฑ์ | 1 | 2 | 3 |
+### Readiness gate
+
+Screen every pain point before comparing scores. A high score never overrides a stop condition.
+
+| Pain point | Sensitive or restricted data? | Material harm if wrong? | Rules unstable? | Frequent unowned exceptions? | Owner missing? | Gate status and reason |
+|---|---|---|---|---|---|---|
+| A | | | | | | |
+| B | | | | | | |
+| C | | | | | | |
+
+Use one status:
+
+- **Proceed to compare**: no stop condition identified; compare it with the same criteria as the others.
+- **Explore after validation**: a responsible role must validate a gap before the idea progresses.
+- **Do not progress in this workshop**: sensitive information, material harm, unstable rules, frequent unowned exceptions, or missing ownership makes this candidate unsuitable for the workshop Blueprint.
+
+| Criterion | 1 | 2 | 3 |
 |---|---|---|---|
-| ผลกระทบ | กระทบงานเล็กน้อย | มีผลต่อการส่งต่องาน | มีผลต่อผลลัพธ์สำคัญของทีม |
-| ความถี่ | นาน ๆ ครั้ง | ทุกสัปดาห์ | ทุกวันหรือปริมาณมาก |
-| ความพร้อม | กติกา/ข้อมูล/เจ้าของยังไม่ชัด | ชัดบางส่วนและมีช่องว่าง | ขอบเขต กติกา และเจ้าของชัดเจน |
+| Impact | Minor effect on work | Affects handovers | Affects an important team outcome |
+| Frequency | Occasional | Weekly | Daily or high volume |
+| Readiness | Rules, information, or owner unclear | Partly clear, with gaps | Scope, rules, and owner clear |
 
-| Pain point | ผลกระทบ | ความถี่ | ความพร้อม | รวม /9 | เหตุผลและสิ่งที่ต้องตรวจ |
-|---|---:|---:|---:|---:|---|
-| A | | | | | |
-| B | | | | | |
-| C | | | | | |
+| Pain point | Gate status | Impact | Frequency | Readiness | Total /9 | Effort: Low / Medium / High | Evidence and outstanding checks |
+|---|---|---:|---:|---:|---:|---|---|
+| A | | | | | | | |
+| B | | | | | | | |
+| C | | | | | | | |
 
-โอกาสที่เลือก: __________ เหตุผล: __________
+Selected opportunity: __________ Reason: __________
 
-เริ่มที่ขั้นตอน: __________ จบที่ผลลัพธ์: __________
+Start event: __________ End outcome: __________
 
-เจ้าของงาน: __________ ข้อมูล/สิทธิ์ที่ยังต้องตรวจ: __________
+Process owner: __________ Information or permissions to verify: __________
 
-หากคะแนนเสมอ ให้เลือกขอบเขตที่เล็กกว่าและมีเจ้าของชัดเจน หากยังไม่พร้อมให้ระบุคำถามก่อนทดลอง แทนการอ้างว่าพร้อมสร้างแล้ว
+For a tie, prefer the smaller scope, lower qualitative effort, and clearer owner. If readiness is uncertain, record questions before a trial instead of claiming the opportunity is build-ready.
 
-## 4. Workflow Blueprint
+## 4. Physical Flow Card Blueprint
 
-ปัญหาที่เลือก: __________ ผลลัพธ์ที่ต้องการ: __________
+Selected problem: __________ Intended outcome: __________
 
-Trigger: __________
+When __________ happens, we want __________ so that __________.
 
-| ลำดับ | Action หรือการตัดสินใจ | คนหรือระบบที่รับผิดชอบ | ข้อมูลที่ใช้ | ผลลัพธ์/สถานะถัดไป |
+Trigger card or start event: __________
+
+### Normal path sequence
+
+| Order | Flow card or sticky note | Responsible person or system | Information needed | Next outcome or status |
 |---|---|---|---|---|
 | | | | | |
 | | | | | |
 | | | | | |
 | | | | | |
 | | | | | |
+| | | | | |
+| | | | | |
+| | | | | |
 
-Condition ที่สำคัญ: __________
+### Owners and human checkpoints
 
-กรณี Yes: __________ กรณี No: __________
+| Step or decision | Owner | Human check or business decision | Evidence or information used |
+|---|---|---|---|
+| | | | |
+| | | | |
 
-จุดที่คนตรวจหรืออนุมัติ: __________
+### Branches and exception routes
 
-เมื่อข้อมูลขาด/งานค้าง: __________ ผู้รับผิดชอบ: __________
+Key Condition, if justified by an agreed rule: __________
 
-## 5. บันทึกการเดินทดสอบ
+Yes route and owner: __________ No route and owner: __________
 
-| กรณี | คาดว่าจะเกิดอะไร | เดินตามภาพแล้วพบอะไร | จุดที่แก้ | ผ่านหรือยังต้องแก้ |
+Missing-information route: __________ Owner: __________ Resume point: __________
+
+Rejection route: __________ Owner: __________ Final notification: __________
+
+Stalled-work route: __________ Owner: __________ Follow-up or escalation point: __________
+
+Sticky notes marked **Needs verification**: __________
+
+## 5. Paper walk-test record
+
+| Case | Expected outcome | What happened when following the visible steps? | Gap and correction | Pass or unresolved question |
 |---|---|---|---|---|
-| ปกติ | | | | |
-| ข้อมูลขาดหรือไม่อนุมัติ | | | | |
+| R-101: normal | | | | |
+| R-102 or R-103: exception | | | | |
 
-การเดินทดสอบบนกระดาษยืนยันความชัดเจนของแนวคิดเท่านั้น ไม่ยืนยันว่า Flow ทำงานในระบบจริง
+Retested path and result: __________ Escalation owner, if needed: __________
 
-## 6. Leadership Handover Card
+Paper testing checks the clarity of the concept. It does not establish that a flow works in a real tenant.
 
-- ปัญหาและโอกาสที่เลือก: __________
-- แบบร่างจะเปลี่ยนงานส่วนใด: __________
-- เจ้าของกระบวนการ: __________
-- คน/ทีมที่ต้องปรึกษา: __________
-- ประโยชน์ที่คาดหวัง: __________
-- ตัวชี้วัดและวิธีเก็บ baseline: __________
-- สิ่งที่ต้องตรวจเพื่อคงความถูกต้องของผลลัพธ์: __________
-- ขอบเขตข้อมูลและผู้อนุญาตการทดลอง: __________
-- คำถามที่ยังไม่จบ: __________
-- การตัดสินใจถัดไปและวันที่จะติดตาม: __________
+## 6A. Workflow description for Copilot review
+
+Use fictional or sanitised information only. Exclude personal names, customer information, personal data, confidential details, and real operational reference numbers.
+
+- Business problem: __________
+- Intended outcome: __________
+- Agreed start and end boundary: __________
+- Trigger: __________
+- Ordered steps: __________
+- Conditions and Yes/No branches: __________
+- Human review or decisions: __________
+- Missing-information, rejection, or stalled-work paths: __________
+- Known assumptions: __________
+- Matters already marked for verification: __________
+
+Before sending: no personal, customer, confidential, or unauthorised operational information ☐
+
+## 6B. Copilot Suggestion Review
+
+Give every suggestion a decision and reason. Apply no more than two changes to the physical Blueprint.
+
+Review source: ☐ Live Copilot Chat ☐ Facilitator fallback
+
+Review date: __________
+
+If the fallback is used, label the response **Simulated review input — not tenant evidence**.
+
+| Decision | Meaning |
+|---|---|
+| Adopt | Supported and useful as written |
+| Adapt | Useful after modification |
+| Verify | Needs confirmation from a responsible person |
+| Reject | Unsupported, unnecessary, or outside scope |
+
+| Copilot suggestion | Decision | Reason from the case, scope, or test | Change or person to ask |
+|---|---|---|---|
+| 1 | | | |
+| 2 | | | |
+| 3 | | | |
+| 4 | | | |
+
+Selected change 1 and justification: __________
+
+Selected change 2 and justification: __________
+
+## 6C. Leadership Handover Card
+
+Start this card after opportunity selection. Add exceptions after paper testing, then review decisions after Copilot.
+
+- Problem and selected opportunity: __________
+- Agreed scope and work that would change: __________
+- Process owner: __________
+- People or teams to consult: __________
+- People affected by the proposed change: __________
+- Support or communication needed: __________
+- Exceptions found in the paper test: __________
+- Accepted changes following Copilot review: __________
+- Suggestions still marked Verify: __________
+- Expected benefit: __________
+- Measure and method for collecting a baseline: __________
+- Checks needed to preserve output accuracy: __________
+- Concern to test during a controlled trial: __________
+- Data boundary and person authorised to approve a trial: __________
+- Unresolved questions: __________
+- Next decision: __________
+- Responsible person or role: __________
+- Follow-up date: __________
+
+Copilot review is not evidence of technical feasibility, policy compliance, licensing, or deployment readiness.
 
 ## 7. Exit reflection
 
-วันนี้ฉันเข้าใจว่า Power Automate ช่วย __________
+Power Automate could help with __________.
 
-การตัดสินใจที่คนยังต้องรับผิดชอบคือ __________
+People remain responsible for __________.
 
-สิ่งแรกที่จะคุยกับทีมหลังจบวันนี้คือ __________
+My first follow-up will be about __________ with __________ on __________.
+
+[Course home](/)

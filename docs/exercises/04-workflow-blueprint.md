@@ -1,91 +1,119 @@
 ---
-title: "Exercise 4: ร่าง Workflow ที่คนและระบบทำงานร่วมกัน"
-description: "กำหนด Trigger, Actions, Condition และจุดตรวจของคน"
-prev:
-  text: "Exercise 3"
-  link: "/exercises/03-prioritize-opportunity"
-next:
-  text: "Exercise 5"
-  link: "/exercises/05-leadership-handover"
+title: "Exercise 4: Design with physical Flow cards"
+description: "English learner instructions for Exercise 4: Design with physical Flow cards"
 ---
 
-# Exercise 4: ร่าง Workflow ที่คนและระบบทำงานร่วมกัน
+# Exercise 4: Design with physical Flow cards
 
 <CourseProgress :current="4" />
 
-เหมือนเขียนสูตรอาหารให้คนอื่นทำตาม Blueprint ต้องบอกจุดเริ่ม ลำดับงาน และสิ่งที่ทำเมื่อเงื่อนไขไม่เป็นไปตามคาด
+Arrange a recipe on the table before entering the kitchen. Use the facilitator's printed Flow cards to show the proposed sequence, then add sticky notes for people, exceptions, and unresolved questions.
 
-**เวลา:** 14:10–14:25 และ 14:45–15:30 รวม 60 นาที
+**Time:** 14:10–14:25 and 14:45–15:20, 50 minutes total.
 
-> **License:** กิจกรรมบนกระดาษนี้ไม่ต้องใช้ paid software licence หรือบัญชี Power Automate ผู้เรียนไม่ต้องสร้าง Flow
+> **Licence:** No Power Automate account or paid Power Automate licence is required for this paper activity. The facilitator distributes the physical cards separately; their source files are excluded from this digital package.
 
-## เตรียมก่อนเริ่ม
+## Preparation
 
-- ทำงานกลุ่มละ 4–6 คน หรือปรับตามจำนวนคนในห้อง
-- เตรียม post-it ปากกา และกระดาษแผ่นใหญ่ แบ่งหน้าที่ผู้จด ผู้จับเวลา และผู้นำเสนอ
-- ใช้ [ชุดสถานการณ์สมมติ](/resources/case-pack) และ [แบบบันทึก](/resources/worksheets)
-- ใช้โอกาสที่เลือกจาก Exercise 3 หากไม่มีให้เลือกการส่งคำขอจัดอบรมที่ข้อมูลครบไปให้ผู้จัดการ
+- Work in groups of 4–6 with one physical card deck, large paper, sticky notes, and pens.
+- Open the [case pack](/resources/case-pack) and [worksheets](/resources/worksheets).
+- Bring the opportunity selected in Exercise 3. If necessary, use the internal training-request case.
+- Begin only after the explanation of Trigger, Action, and Condition. Use fictional or sanitised information only.
 
-## Practice 1: กำหนด Trigger และผลลัพธ์ (15 นาที) {#practice-1}
+> **Card correction:** The supplied `Start and wait for an approval` card is printed as a Trigger. In Power Automate it is an **Action** and belongs after a valid Trigger. Explain this distinction without changing the original card.
 
-เป้าหมาย: ระบุจุดเริ่มและจุดจบของ workflow ที่เลือก
+## Practice 1: Build the normal path (15 minutes) {#practice-1}
 
-1. เขียนประโยค “เมื่อ...เกิดขึ้น เราต้องการให้...เพื่อ...” โดยใช้เหตุการณ์ที่สังเกตได้
-2. วงเหตุการณ์เริ่มต้นเป็น Trigger เช่น มีคำขอใหม่ในช่องทางที่ตกลงไว้
-3. ระบุข้อมูลที่ต้องมีตอนเริ่มและผลลัพธ์ที่ทำให้รู้ว่างานจบ
-4. กรอกส่วนหัวแบบบันทึก 4 และให้คนในกลุ่มเล่ากลับด้วยคำของตนเอง
-5. เก็บภาพตั้งต้นไว้ต่อหลังพัก โดยยังไม่เลือกชื่อ Connector ที่ไม่ยืนยัน
+**Primary target:** Arrange a path from Trigger to outcome that another person can explain.
 
-### Checkpoint
+**Learner output:** A physical normal path and matching Worksheet 4 sequence.
 
-มี Trigger หนึ่งเหตุการณ์และผลลัพธ์ปลายทางที่ตรวจได้
-
-## Practice 2: ร่างขั้นตอนและบทบาท (25 นาที) {#practice-2}
-
-เป้าหมาย: สร้าง blueprint ที่ระบุเส้นทางงานและผู้รับผิดชอบ
-
-1. วาง 5–8 ขั้นตอนตั้งแต่ Trigger ถึงผลลัพธ์ ใช้ post-it หนึ่งการกระทำต่อหนึ่งใบ
-2. กำกับแต่ละขั้นตอนว่าเสนอให้ระบบทำตามกติกาหรือให้คนทำ
-3. ใส่ Condition หนึ่งจุดเป็นคำถาม Yes/No เช่น ข้อมูลที่จำเป็นครบหรือไม่ และวาดให้ครบทั้งสองทาง
-4. ระบุจุดพิจารณาของคน เช่น ผู้จัดการอนุมัติ พร้อมเส้นทางเมื่อไม่อนุมัติ
-5. เขียนผู้รับผิดชอบเมื่อข้อมูลขาดหรืองานค้าง และช่องทางที่ต้องตรวจความเป็นไปได้
-6. คัดสาระลงแบบบันทึก 4 และตัดขั้นตอนที่ซ้ำโดยไม่ทำให้การตรวจหายไป
+1. Read the selected opportunity. Complete “When ... happens, we want ... so that ...” in Worksheet 4.
+2. Choose one Trigger card matching the start event. Add **Needs verification** if connector availability is unknown.
+3. Select cards for the main steps and arrange them left to right.
+4. Use sticky notes for missing or repeated steps. Do not add a step simply because the deck contains a card for it.
+5. Add an outcome sticky note. Ask someone else to describe the path from Trigger to outcome.
+6. Record the sequence in Worksheet 4 and leave the cards in place during the break.
 
 ### Checkpoint
 
-ภาพมีบทบาททุกขั้นตอน มี Yes/No ครบ และมีคนรับผิดชอบกรณีผิดปกติ
+A participant who did not arrange the cards can explain the Trigger, main steps, and normal outcome.
 
-## Practice 3: เดินทดสอบบนกระดาษ (20 นาที) {#practice-3}
+## Practice 2: Add owners and human checkpoints (8 minutes) {#practice-2}
 
-เป้าหมาย: ตรวจความชัดเจนของ blueprint ด้วยกรณีปกติและข้อยกเว้น
+**Primary target:** Assign responsibility and make human judgement visible at the relevant steps.
 
-1. เลือก R-101 และ R-102 หรือ R-103 จาก case pack หากใช้เรื่องอื่นให้สร้างข้อมูลสมมติที่เทียบกันได้
-2. เขียนผลที่คาดหวังของแต่ละกรณีก่อนเริ่มเดินภาพ
-3. ให้คนหนึ่งเล่นเป็นผู้ขอ อีกคนเป็นผู้จัดการ และอีกคนอ่านขั้นตอนที่ระบบจะทำ ห้ามข้ามขั้นตอนที่ไม่ได้เขียน
-4. จดจุดที่ไปต่อไม่ได้ เช่น ไม่มีข้อมูลหรือไม่มีผู้รับผิดชอบ ในแบบบันทึก 5
-5. แก้ภาพแล้วเดินกรณีเดิมอีกครั้ง บันทึกผลและเรื่องที่ยังต้องถามผู้ดูแลระบบ
+**Learner output:** An owner for every visible step and named human checkpoints in Worksheet 4.
+
+1. Revisit the normal path. Remove unnecessary duplication without removing checks.
+2. Add a sticky note naming the person or system responsible for every step.
+3. Mark human review and business decisions, such as the manager deciding whether to approve or reject a request.
+4. Record the owners and human checkpoints in Worksheet 4.
 
 ### Checkpoint
 
-มีผลทดสอบ 2 กรณี มีการตรวจเส้นทางข้อยกเว้น และแยกความชัดของภาพออกจากการยืนยันระบบจริง
+Every visible step has an owner, and each business decision names the person who makes it.
 
-## ตัวอย่างการแยกเส้นทางเชิงแนวคิด
+## Practice 3: Add branches and exception routes (12 minutes) {#practice-3}
+
+**Primary target:** Represent justified branches and give every exception route a responsible owner.
+
+**Learner output:** Visible normal and exception routes for missing information, rejection, and stalled work.
+
+1. For the fictional training-request case, add a completeness Condition as a Yes/No question and show both routes. For another process, add a Condition only when an agreed rule genuinely creates branches.
+2. Show both approval and rejection outcomes after the human decision. Both routes must reach a notification or an owned follow-up.
+3. Add separate routes for missing information and stalled work. Name the responsible role and where work resumes or escalates.
+4. Mark unconfirmed connectors, permissions, policies, information, owners, or timing **Needs verification**.
+5. Update the branches and exception routes in Worksheet 4 and the exception section of Worksheet 6C.
+
+### Checkpoint
+
+Every branch has visible outcomes, and missing-information, rejection, and stalled-work routes each have an owner.
+
+## Practice 4: Walk-test two cases (15 minutes) {#practice-4}
+
+**Primary target:** Find and repair gaps by walking a normal and an exception case through the visible design.
+
+**Learner output:** A Worksheet 5 test record covering one normal case and one exception case.
+
+1. Use R-101 for the normal case and R-102 or R-103 for the exception case. For another process, create equivalent fictional inputs.
+2. Record each expected outcome in Worksheet 5 before testing.
+3. Assign requester, decision-maker, and step-reader roles. Follow only steps represented by cards or sticky notes.
+4. Stop when the path gets stuck. Do not invent an unrecorded step aloud.
+5. Record the gap and its impact, then change the cards or sticky notes.
+6. Repeat the affected path. Record whether it passes or who must resolve the remaining question.
+
+### Checkpoint
+
+Both cases reach a clear outcome or an escalation point with a named owner. You can explain why this paper test does not establish tenant feasibility.
+
+## Conceptual branch example
 
 ```mermaid
 flowchart LR
-    A["รับคำขอ"] --> B{"ข้อมูลครบหรือไม่"}
-    B -->|Yes| C["ส่งให้ผู้จัดการพิจารณา"]
-    B -->|No| D["ขอข้อมูลเพิ่มจากผู้ขอ"]
+    A["Receive request"] --> B{"Required details complete?"}
+    B -->|Yes| C["Manager reviews request"]
+    B -->|No| D["Requester provides missing details"]
 ```
 
-ตัวอย่างนี้แสดงเฉพาะการตรวจความครบถ้วน กลุ่มยังต้องเติมผลอนุมัติ/ไม่อนุมัติและการแจ้งผลใน blueprint ของตนเอง
+This example covers completeness only. Your group must also represent approval, rejection, notification, and any agreed return or escalation route.
 
-## เมื่อพบอุปสรรค
+## If you get stuck
 
-หากยังไม่มีตัวอย่างงานที่เหมาะสม ให้ใช้กรณีคำขอจัดอบรมภายใน หากไม่ทราบกติกาหรือสิทธิ์ ให้เขียนว่า “ต้องตรวจสอบ” พร้อมชื่อบทบาทที่จะถาม อย่าเติมคำตอบแทนเจ้าของงาน
+- Use sticky notes for missing cards or repeated Actions. Flag the product term for verification if necessary.
+- Record unknown rules and permissions with the role to ask; do not invent them.
+- If the design becomes too large, return to the start and outcome agreed in Exercise 3.
 
-## สรุป
+## Summary
 
-เราได้แบบร่างที่เพื่อนเดินตามได้ แต่ยังไม่ใช่ Flow ที่ทดสอบในสภาพแวดล้อมจริง ต่อไปสรุปสิ่งที่ต้องส่งต่อให้ทีมใน Exercise 5
+Keep the tested physical Blueprint and test record. In Exercise 5, describe the design in safe text and ask Copilot Chat to challenge its assumptions.
+
+## Official references
+
+- [Triggers](https://learn.microsoft.com/en-us/power-automate/triggers-introduction)
+- [Conditions in cloud flows](https://learn.microsoft.com/en-us/power-automate/add-condition)
+- [Approval actions](https://learn.microsoft.com/en-us/power-automate/get-started-approvals)
+
+[Course home](/) · [Previous exercise](/exercises/03-prioritize-opportunity) · [Next exercise](/exercises/05-leadership-handover)
 
 <ExerciseFooter prev="/exercises/03-prioritize-opportunity" next="/exercises/05-leadership-handover" prev-label="Exercise 3" next-label="Exercise 5" />

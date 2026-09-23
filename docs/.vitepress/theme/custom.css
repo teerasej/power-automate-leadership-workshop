@@ -47,6 +47,8 @@ a:focus-visible, button:focus-visible, summary:focus-visible {
 .vp-doc h2 { border-top: 1px solid var(--workshop-line); padding-top: 1.5rem; }
 .vp-doc p, .vp-doc li { max-width: 74ch; }
 .vp-doc table { display: table; width: 100%; }
+.vp-doc div.language-text pre code { white-space: pre-wrap; overflow-wrap: anywhere; }
+.vp-doc .mermaid { overflow-x: auto; }
 
 .journey-intro {
   display: grid;
@@ -61,7 +63,7 @@ a:focus-visible, button:focus-visible, summary:focus-visible {
 .workshop-visual img { display: block; width: 100%; aspect-ratio: 4 / 3; object-fit: cover; object-position: center; }
 .workshop-visual figcaption { padding: .7rem 1rem; color: var(--vp-c-text-2); font-size: .88rem; }
 
-.journey-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 1rem; margin: 1.5rem 0 2.2rem; }
+.journey-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; margin: 1.5rem 0 2.2rem; }
 .journey-card { min-width: 0; padding: 1.1rem; border: 1px solid var(--workshop-line); border-radius: 18px; background: var(--vp-c-bg-soft); box-shadow: 0 8px 28px rgba(11, 42, 74, .06); }
 .journey-card__top { display: flex; align-items: center; gap: .65rem; color: var(--workshop-blue); font-weight: 700; }
 .journey-number { display: grid; place-items: center; width: 2rem; height: 2rem; border-radius: 50%; color: white; background: #1f65a0; }
@@ -99,6 +101,7 @@ a:focus-visible, button:focus-visible, summary:focus-visible {
   .course-progress a { justify-content: center; }
 }
 @media (max-width: 680px) {
+  .vp-doc .mermaid svg { min-width: 560px; }
   .journey-intro { grid-template-columns: 1fr; }
   .workshop-visual img { aspect-ratio: 16 / 9; object-position: center 44%; }
   .journey-grid { grid-template-columns: 1fr; }

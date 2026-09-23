@@ -1,29 +1,29 @@
 # Strategic Automation Leadership
 
-เว็บไซต์คู่มือผู้เรียนภาษาไทยสำหรับเวิร์กช็อป Power Automate ระดับผู้นำ สร้างด้วย VitePress และเผยแพร่ผ่าน GitHub Pages
+English learner guide for the Power Automate leadership workshop, built with VitePress.
 
-## เริ่มใช้งานในเครื่อง
+## Local development
 
-ต้องมี Node.js 24 และ npm
+Requires Node.js 24 and npm.
 
 ```bash
 npm ci
 npm run docs:dev
 ```
 
-VitePress จะแสดง URL สำหรับเปิดเว็บไซต์ในเครื่อง
+VitePress prints the local preview URL.
 
-## ตรวจสอบไฟล์สำหรับเผยแพร่
+## Validate the site
 
 ```bash
 npm run docs:build
 npm run docs:preview
 ```
 
-ผลลัพธ์สำหรับ GitHub Pages อยู่ที่ `docs/.vitepress/dist`
+The generated site is in `docs/.vitepress/dist`.
 
-## การเผยแพร่
+## Publication
 
-ทุกครั้งที่ push ไปยัง branch `main` workflow ใน `.github/workflows/deploy.yml` จะ build และเผยแพร่เว็บไซต์ผ่าน GitHub Pages
+Pushing to `main` triggers the GitHub Pages workflow. The public site is [Strategic Automation Leadership](https://teerasej.github.io/power-automate-leadership-workshop/).
 
-เนื้อหา แบบฝึกหัด และข้อมูลตัวอย่างใน repository นี้เป็นสื่อการเรียนทั่วไป ข้อมูลและตัวเลขในกรณีศึกษาเป็นข้อมูลสมมติ
+Exercises and sample data are generic learning materials. Case figures are fictional. Physical Flow-card originals, private facilitator files, and validation evidence are excluded from the public package.

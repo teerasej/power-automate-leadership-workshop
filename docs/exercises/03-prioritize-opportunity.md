@@ -1,65 +1,80 @@
 ---
-title: "Exercise 3: เลือกโอกาสที่ควรเริ่มก่อน"
-description: "เปรียบเทียบคุณค่า ความพร้อม และขอบเขตของโอกาส"
-prev:
-  text: "Exercise 2"
-  link: "/exercises/02-map-work-friction"
-next:
-  text: "Exercise 4"
-  link: "/exercises/04-workflow-blueprint"
+title: "Exercise 3: Select an opportunity"
+description: "English learner instructions for Exercise 3: Select an opportunity"
 ---
 
-# Exercise 3: เลือกโอกาสที่ควรเริ่มก่อน
+# Exercise 3: Select an opportunity
 
 <CourseProgress :current="3" />
 
-เวลาและทรัพยากรมีจำกัด กลุ่มจะเปรียบเทียบสาม pain point แล้วเลือกงานหนึ่งส่วนที่มีคุณค่าและขอบเขตพอเริ่มสำรวจได้
+Compare the three pain points using the same criteria, then choose a manageable opportunity with a clear owner.
 
-**เวลา:** 13:10–13:50 รวม 40 นาที
+**Time:** 13:10–13:50, 40 minutes.
 
-> **License:** กิจกรรมบนกระดาษนี้ไม่ต้องใช้ paid software licence หรือบัญชี Power Automate ผู้เรียนไม่ต้องสร้าง Flow
+> **Licence:** This paper activity requires no paid software licence or Power Automate account.
 
-## เตรียมก่อนเริ่ม
+## Preparation
 
-- ทำงานกลุ่มละ 4–6 คน หรือปรับตามจำนวนคนในห้อง
-- เตรียม post-it ปากกา และกระดาษแผ่นใหญ่ แบ่งหน้าที่ผู้จด ผู้จับเวลา และผู้นำเสนอ
-- ใช้ [ชุดสถานการณ์สมมติ](/resources/case-pack) และ [แบบบันทึก](/resources/worksheets)
-- ใช้แผนที่และสาม pain point จาก Exercise 2 หากเริ่มกิจกรรมนี้แยก ให้ใช้สามรายการใน case pack
+- Work with your group, process map, and three pain points from Exercise 2.
+- Open the [case pack](/resources/case-pack) and [worksheets](/resources/worksheets).
+- If starting here, use the three pain points in the case pack. Have sticky notes, pens, and large paper ready.
 
-## Practice 1: ให้คะแนนและเลือกโอกาส (30 นาที)
+## Practice 1: Apply the readiness gate (8 minutes) {#practice-1}
 
-เป้าหมาย: เลือกโอกาสหนึ่งเรื่องด้วยเหตุผลที่ตรวจย้อนกลับได้
+**Primary target:** Assign a workshop progression status to each candidate using explicit stop conditions.
 
-1. อ่านเกณฑ์คะแนนในแบบบันทึก 3 ให้เข้าใจตรงกันก่อนให้คะแนน
-2. ให้แต่ละคนเสนอคะแนนผลกระทบ ความถี่ และความพร้อม 1–3 พร้อมเหตุผล
-3. ตกลงคะแนนกลุ่มทีละเกณฑ์ ใช้หลักฐานช่วยตัดสินและบันทึกความไม่แน่นอน ไม่ใช้คะแนนโหวตแทนข้อเท็จจริง
-4. รวมคะแนนเต็ม 9 ต่อเรื่องและเปรียบเทียบผล หากเสมอใช้ขอบเขตที่เล็กกว่าและเจ้าของชัดกว่า
-5. เลือกหนึ่งเรื่อง ระบุจุดเริ่ม จุดจบ เจ้าของงาน และสิ่งที่ต้องตรวจเพิ่มเติม
-6. หากคะแนนสูงแต่กติกาหรือสิทธิ์ยังไม่พร้อม ให้ระบุว่าเป็นโอกาสสำหรับสำรวจ ไม่ใช่พร้อมสร้างจริง
+**Learner output:** Three candidates marked **Proceed to compare**, **Explore after validation**, or **Do not progress in this workshop**, with reasons.
 
-### Checkpoint
-
-มีคะแนนครบสามเรื่องและเหตุผลของเรื่องที่เลือก พร้อมขอบเขตและเจ้าของ
-
-## Practice 2: ให้เพื่อนกลุ่มตรวจเหตุผล (10 นาที)
-
-เป้าหมาย: ปรับขอบเขตโอกาสให้ชัดจากคำถามของเพื่อน
-
-1. จับคู่กับกลุ่มข้าง ๆ แลกผู้ตรวจหนึ่งหรือสองคน หรือจับคู่กันภายในกลุ่มเมื่อมีเพียงกลุ่มเดียว
-2. ใช้ 2 นาทีอธิบายปัญหา หลักฐาน และเหตุผลที่เลือก จากนั้นให้ผู้ตรวจถามว่าเริ่มเล็กพอไหม ใครรับผิดชอบ และรู้อะไรไม่ครบ
-3. สลับผู้เล่าและผู้ตรวจอีกกลุ่ม ใช้เวลาเท่ากัน
-4. ใช้เวลาที่เหลือปรับขอบเขตและบันทึกคำถามที่ต้องถามเจ้าของงาน
+1. Screen pain points A–C using the readiness gate in Worksheet 3.
+2. Look for sensitive or restricted information, material harm if the result is wrong, unstable rules, frequent unowned exceptions, and missing ownership.
+3. Assign one status to each candidate and record the reason.
+4. Do not score a candidate marked **Do not progress in this workshop**. A high expected benefit never overrides a stop condition.
 
 ### Checkpoint
 
-มีข้อเสนอแนะอย่างน้อยหนึ่งข้อและระบุว่าปรับหรือคงขอบเขตเพราะอะไร
+All three candidates have a gate status and evidence-based reason. Any stop condition remains visible.
 
-## เมื่อพบอุปสรรค
+## Practice 2: Compare and select (22 minutes) {#practice-2}
 
-หากยังไม่มีตัวอย่างงานที่เหมาะสม ให้ใช้กรณีคำขอจัดอบรมภายใน หากไม่ทราบกติกาหรือสิทธิ์ ให้เขียนว่า “ต้องตรวจสอบ” พร้อมชื่อบทบาทที่จะถาม อย่าเติมคำตอบแทนเจ้าของงาน
+**Primary target:** Select one manageable opportunity using comparable evidence.
 
-## สรุป
+**Learner output:** A scored comparison with qualitative effort, plus one selected boundary and owner.
 
-โอกาสที่เลือกจะเป็นโจทย์เดียวสำหรับร่าง workflow ใน Exercise 4 เก็บคะแนนเป็นเหตุผลประกอบ ไม่ใช้เป็นตัวเลขผลตอบแทนการลงทุน
+1. For candidates still eligible for comparison, propose scores from 1–3 for impact, frequency, and readiness, with a reason for each.
+2. Agree a group score for each criterion. Record uncertainty; votes do not turn assumptions into facts.
+3. Estimate effort as **Low**, **Medium**, or **High**. Treat this as a qualitative planning signal, not a cost estimate.
+4. Total the three numeric scores out of 9. For a tie, prefer the smaller scope, lower effort, and clearer ownership.
+5. Select one opportunity and define its start, end, owner, and outstanding checks.
+6. A candidate marked **Explore after validation** may be selected only as an investigation topic. Do not describe it as build-ready.
+7. Start Worksheet 6C with the problem, scope, and process owner. Carry this Handover Card forward.
+
+### Checkpoint
+
+Every compared candidate has impact, frequency, readiness, qualitative effort, reasons, and open checks. The selected opportunity has a boundary and owner.
+
+## Practice 3: Peer scope review (10 minutes) {#practice-3}
+
+**Primary target:** Clarify the opportunity boundary through peer questions.
+
+**Learner output:** One recorded refinement or retained decision with a reason.
+
+1. Pair with another group and exchange one or two reviewers. If only one group is present, exchange roles within it.
+2. Explain your problem, evidence, and selection in two minutes. Give reviewers two minutes to ask: is this small enough, who owns it, and what is unknown?
+3. Swap roles for another four minutes.
+4. Use the final two minutes to refine the boundary and record questions for the process owner.
+
+### Checkpoint
+
+Record at least one suggestion and why you changed or retained the scope.
+
+## If you get stuck
+
+Use the supplied case. Mark unknown facts **Needs verification**, with a responsible role. Do not interpret a high score as permission to deploy.
+
+## Summary
+
+Carry this single opportunity into Exercise 4. The score supports discussion; it is not an ROI calculation.
+
+[Course home](/) · [Previous exercise](/exercises/02-map-work-friction) · [Next exercise](/exercises/04-workflow-blueprint)
 
 <ExerciseFooter prev="/exercises/02-map-work-friction" next="/exercises/04-workflow-blueprint" prev-label="Exercise 2" next-label="Exercise 4" />

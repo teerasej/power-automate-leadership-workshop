@@ -1,76 +1,79 @@
 ---
-title: "Exercise 2: แผนที่งานและจุดติดขัด"
-description: "มองเห็นการส่งต่องาน การรอ และข้อมูลที่ขาด"
-prev:
-  text: "Exercise 1"
-  link: "/exercises/01-understand-automation"
-next:
-  text: "Exercise 3"
-  link: "/exercises/03-prioritize-opportunity"
+title: "Exercise 2: Map work and friction"
+description: "English learner instructions for Exercise 2: Map work and friction"
 ---
 
-# Exercise 2: แผนที่งานและจุดติดขัด
+# Exercise 2: Map work and friction
 
 <CourseProgress :current="2" />
 
-มองงานเหมือนครัวที่มีรายการอาหารรออยู่หลายจุด ก่อนเลือกเครื่องมือใหม่ เราต้องรู้ว่างานติดที่ขั้นตอนไหนและใครกำลังรอใคร
+Think of a kitchen with orders waiting at different stations. Before choosing equipment, find where work stops and who is waiting for whom.
 
-**เวลา:** 11:15–11:55 รวม 40 นาที
+**Time:** 11:15–11:55, 40 minutes.
 
-> **License:** กิจกรรมบนกระดาษนี้ไม่ต้องใช้ paid software licence หรือบัญชี Power Automate ผู้เรียนไม่ต้องสร้าง Flow
+> **Licence:** This paper activity requires no paid software licence or Power Automate account.
 
-## เตรียมก่อนเริ่ม
+## Preparation
 
-- ทำงานกลุ่มละ 4–6 คน หรือปรับตามจำนวนคนในห้อง
-- เตรียม post-it ปากกา และกระดาษแผ่นใหญ่ แบ่งหน้าที่ผู้จด ผู้จับเวลา และผู้นำเสนอ
-- ใช้ [ชุดสถานการณ์สมมติ](/resources/case-pack) และ [แบบบันทึก](/resources/worksheets)
-- นำข้อสังเกตจาก Exercise 1 มาใช้ โดยเริ่มจากกรณีสมมติหรือกระบวนการทั่วไปที่ไม่มีข้อมูลลับ
+- Work in groups of 4–6 with sticky notes, pens, and large paper. Assign recorder, timekeeper, and spokesperson roles.
+- Open the [case pack](/resources/case-pack) and [worksheets](/resources/worksheets).
+- Use your observations from Exercise 1. Use fictional or non-confidential context only.
+- Use ordinary sticky notes for the current process. Save the Flow cards for Exercise 4, after selecting an opportunity.
 
-## Practice 1: เรียงขั้นตอนงานปัจจุบัน (15 นาที)
+## Practice 1: Map the current process (15 minutes) {#practice-1}
 
-เป้าหมาย: สร้างแผนที่กระบวนการปัจจุบันที่เห็นการส่งต่องาน
+**Primary target:** Create a current-process map that makes handovers visible.
 
-1. ตกลงว่ากระบวนการเริ่มและจบตรงไหน บันทึกในแบบบันทึก 2
-2. เขียนหนึ่งการกระทำต่อ post-it หนึ่งใบ ใช้คำกริยา เช่น ตรวจข้อมูล ส่งพิจารณา แจ้งผล
-3. เรียง 5–8 ขั้นตอนและใส่บทบาทผู้รับผิดชอบใต้แต่ละใบ
-4. เติมข้อมูลที่แต่ละขั้นตอนต้องรับหรือส่ง และอ่านภาพตั้งแต่ต้นจนจบ
+**Learner output:** A 5–8-step current-process map in Worksheet 2 with visible handover information or status.
 
-### Checkpoint
-
-ภาพมีจุดเริ่ม จุดจบ และผู้รับผิดชอบทุกขั้นตอน
-
-## Practice 2: ระบุ friction พร้อมหลักฐาน (20 นาที)
-
-เป้าหมาย: ระบุจุดติดขัดที่อธิบายเหตุและผลต่อการทำงานได้
-
-1. ติดสัญลักษณ์ ซ้ำ / รอ / ข้อมูลขาด / เจ้าของไม่ชัด ที่ขั้นตอนที่เกี่ยวข้อง
-2. ใช้หลักฐานสมมติจาก case pack หรือข้อสังเกตทั่วไปที่เปิดเผยได้ ระบุชัดว่าข้อมูลใดเป็นสมมติฐาน
-3. ถามแต่ละจุดว่าใครได้รับผลกระทบ และเกิดผลอย่างไร เช่น ต้องคัดลอกใหม่หรือยังแจ้งผลไม่ได้
-4. แยกปัญหาที่ระบบช่วยส่งต่อได้ออกจากปัญหาที่ต้องตกลงกติกาหรือบทบาทก่อน
-5. บันทึกสิ่งที่ยังไม่รู้โดยไม่กล่าวโทษบุคคล
+1. Agree where the process starts and ends. Record this in Worksheet 2.
+2. Write one action on each sticky note, such as check details, request review, or notify the requester.
+3. Arrange 5–8 steps and name the responsible role under each step.
+4. At every handover, record the information or status received and the information or status passed to the next role.
+5. Read the map from start to finish and confirm that no handover depends on an unstated input.
 
 ### Checkpoint
 
-มีอย่างน้อย 3 จุดติดขัด โดยแต่ละจุดระบุผลกระทบและหลักฐานหรือคำถามที่ยังค้าง
+The map has 5–8 steps, a start, an end, a responsible role for every step, and information or status at every handover.
 
-## Practice 3: เลือกสามเรื่องไปเปรียบเทียบ (5 นาที)
+## Practice 2: Identify friction with evidence (20 minutes) {#practice-2}
 
-เป้าหมาย: จัดทำรายการ pain point ที่ชัดเจนสำหรับการ prioritise
+**Primary target:** Explain where work encounters friction and how it affects the process.
 
-1. เลือกสามจุดจากแผนที่และตั้งชื่อด้วยรูปแบบ “งานอะไรติดตรงไหน”
-2. บันทึก A B C ลงท้ายแบบบันทึก 2
-3. วางแผนที่ให้ทุกคนในกลุ่มเห็นและเก็บไว้ใช้หลังอาหารกลางวัน
+**Learner output:** At least three evidence-linked friction markers on the current-process map.
+
+1. Mark relevant steps **Repeated work**, **Waiting**, **Missing information**, or **Unclear owner**.
+2. Use fictional evidence from the case pack or general observations you may share. Label assumptions clearly.
+3. Explain who is affected and what happens, such as re-entering information or being unable to notify the requester.
+4. Distinguish routing problems from problems that first need clearer rules or responsibilities.
+5. Record unknowns without blaming individuals.
 
 ### Checkpoint
 
-มีสามรายการที่กลับไปชี้ตำแหน่งบนแผนที่ได้
+At least three friction points have an impact and supporting evidence or an open question.
 
-## เมื่อพบอุปสรรค
+## Practice 3: Choose three pain points to compare (5 minutes) {#practice-3}
 
-หากยังไม่มีตัวอย่างงานที่เหมาะสม ให้ใช้กรณีคำขอจัดอบรมภายใน หากไม่ทราบกติกาหรือสิทธิ์ ให้เขียนว่า “ต้องตรวจสอบ” พร้อมชื่อบทบาทที่จะถาม อย่าเติมคำตอบแทนเจ้าของงาน
+**Primary target:** Produce a clear shortlist for prioritisation.
 
-## สรุป
+**Learner output:** Three named pain points, A–C, that point to specific locations on the map.
 
-แผนที่ทำให้เห็นปัญหาทั้งกระบวนการ หลังอาหารกลางวันเราจะใช้หลักฐานนี้เลือกหนึ่งโอกาสใน Exercise 3
+1. Choose three points from the map. Name each using the pattern: what work gets stuck, and where?
+2. Record them as A, B, and C in Worksheet 2.
+3. Keep the map visible and save it for the afternoon.
+
+### Checkpoint
+
+Each pain point points back to a specific place on the map.
+
+## If you get stuck
+
+Use the supplied case. Write **Needs verification** beside unknown rules or permissions and name the role to ask.
+
+## Summary
+
+Your map explains the problem before proposing a solution. Use this evidence to select one opportunity in Exercise 3.
+
+[Course home](/) · [Previous exercise](/exercises/01-understand-automation) · [Next exercise](/exercises/03-prioritize-opportunity)
 
 <ExerciseFooter prev="/exercises/01-understand-automation" next="/exercises/03-prioritize-opportunity" prev-label="Exercise 1" next-label="Exercise 3" />

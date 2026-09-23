@@ -1,70 +1,80 @@
----
-title: "ชุดสถานการณ์สมมติและบัตรกิจกรรม"
-description: "ข้อมูลสมมติสำหรับฝึกวิเคราะห์งานและโอกาสด้าน automation"
----
+# Fictional case pack: Internal training requests
 
-# ชุดสถานการณ์สมมติและบัตรกิจกรรม
+All information is fictional and provided for learning. It does not describe any organisation's actual process, policy, or performance.
 
-> **ข้อมูลสมมติ:** ชื่อบุคคล กระบวนการ ตัวเลข และหลักฐานในหน้านี้สร้างขึ้นเพื่อการเรียนรู้ ไม่ใช่ข้อมูลจากองค์กรจริง
+## One case throughout the day
 
-ข้อมูลทั้งหมดเป็นเรื่องสมมติสำหรับกิจกรรม ไม่ใช่กระบวนการ นโยบาย หรือผลการดำเนินงานของ องค์กรสมมติ
+A coordination team receives training requests by email. Each request needs a topic, date, participant count, and business reason. A coordinator checks the details, copies them into a register, sends the request to a manager, and communicates the decision. Requesters often email for status updates while waiting.
 
-## เรื่องเดียวที่ใช้ตลอดวัน
+## Roles
 
-ทีมประสานงานรับคำขอจัดอบรมทางอีเมล ผู้ขอต้องระบุหัวข้อ วันที่ จำนวนคน และเหตุผล ผู้ประสานงานตรวจข้อมูล คัดลอกลงทะเบียน ส่งให้ผู้จัดการพิจารณา แล้วแจ้งผลกลับ ผู้ขอมักส่งอีเมลถามสถานะระหว่างรอ
+- **Requester:** submits the request and supplies missing information.
+- **Coordinator:** checks completeness, maintains the register, and follows up on status.
+- **Manager:** evaluates suitability and makes the business decision.
+- **System administrator:** helps verify permissions and technical feasibility before any real trial.
 
-### คนในกระบวนการ
+## Current process
 
-- ผู้ขอ: ส่งข้อมูลและแก้ข้อมูลที่ขาด
-- ผู้ประสานงาน: ตรวจความครบถ้วน ลงทะเบียน และติดตามสถานะ
-- ผู้จัดการ: พิจารณาความเหมาะสมและตัดสินใจ
-- ผู้ดูแลระบบ: ช่วยตรวจสิทธิ์และความเป็นไปได้ทางเทคนิคเมื่อจะทดลองจริง
-
-### กระบวนการปัจจุบัน
-
-| ลำดับ | งาน | ผู้รับผิดชอบ | สิ่งที่ส่งต่อ |
+| Step | Work | Responsible role | Handover |
 |---|---|---|---|
-| 1 | ส่งคำขอทางอีเมล | ผู้ขอ | หัวข้อ วันที่ จำนวนคน เหตุผล |
-| 2 | ตรวจข้อมูลที่จำเป็น | ผู้ประสานงาน | คำขอครบ หรือรายการข้อมูลที่ขาด |
-| 3 | ขอข้อมูลเพิ่มเมื่อไม่ครบ | ผู้ประสานงานและผู้ขอ | คำขอที่แก้แล้ว |
-| 4 | คัดลอกลงทะเบียน | ผู้ประสานงาน | เลขคำขอและสถานะ |
-| 5 | ส่งให้ผู้จัดการพิจารณา | ผู้ประสานงาน | คำขอพร้อมข้อมูล |
-| 6 | ตัดสินใจและแจ้งผู้ประสานงาน | ผู้จัดการ | อนุมัติหรือไม่อนุมัติ พร้อมเหตุผล |
-| 7 | แจ้งผลและปรับสถานะ | ผู้ประสานงาน | ผู้ขอทราบผล |
+| 1 | Email the request | Requester | Topic, date, participant count, reason |
+| 2 | Check required details | Coordinator | Complete request or list of missing details |
+| 3 | Request and supply missing information | Coordinator and requester | Updated request |
+| 4 | Copy details into the register | Coordinator | Request ID and status |
+| 5 | Send for review | Coordinator | Request and supporting information |
+| 6 | Decide and inform the coordinator | Manager | Approval or rejection, with a reason |
+| 7 | Notify the requester and update status | Coordinator | Requester knows the outcome |
 
-## หลักฐานสมมติสำหรับเปรียบเทียบ pain point
+## Fictional evidence for comparing pain points
 
-ตัวเลขใช้ฝึกคิดเท่านั้น ไม่ใช่คำรับรองประโยชน์ของ automation
+These figures support practice only. They do not promise automation benefits.
 
-| Pain point | หลักฐานสมมติ | ประเด็นที่ยังต้องถาม |
+| Pain point | Fictional evidence | Question still to ask |
 |---|---|---|
-| คัดลอกคำขอลงทะเบียนซ้ำ | 60 คำขอต่อเดือน ต้องกรอกข้อมูลชุดเดิม | เก็บข้อมูลเริ่มต้นให้เป็นโครงสร้างได้หรือไม่ |
-| ไล่ถามสถานะอนุมัติ | ผู้ประสานงานทบทวนคำขอค้างทุกวัน | ผู้จัดการมีเวลาพิจารณาหรือยังไม่มีเกณฑ์ตัดสินใจ |
-| คำขอขาดข้อมูล | พบ 12 จาก 60 คำขอในตัวอย่างเดือนหนึ่ง | ช่องใดจำเป็น และใครกำหนดเกณฑ์ครบถ้วน |
+| Re-entering request details | 60 requests per month require the same details to be copied | Could the information be captured in a structured form initially? |
+| Chasing approval status | The coordinator reviews pending requests daily | Does the manager lack review time or clear decision criteria? |
+| Missing request information | 12 of 60 requests in one sample month lack information | Which fields are required, and who defines completeness? |
 
-## กรณีสำหรับเดินทดสอบ blueprint
+## Cases for the paper walk-test
 
-| รหัส | ข้อมูล | สิ่งที่ให้ลองตรวจ |
+| ID | Input | What to test |
 |---|---|---|
-| R-101 | หัวข้อครบ วันที่ครบ จำนวน 12 คน มีเหตุผล | เส้นทางปกติจนผู้ขอทราบผล |
-| R-102 | หัวข้อครบ วันที่ว่าง จำนวน 8 คน มีเหตุผล | ใครรับผิดชอบขอข้อมูลเพิ่ม และหยุดตรงไหน |
-| R-103 | ข้อมูลครบ แต่ผู้จัดการไม่อนุมัติ | แจ้งผลอย่างไรโดยไม่ส่งงานไปดำเนินการต่อ |
-| R-104 | ข้อมูลครบ แต่ผู้จัดการยังไม่ตอบ | ใครติดตาม และเมื่อใดควรขอความช่วยเหลือ |
+| R-101 | Topic and date supplied; 12 participants; reason supplied | Normal path until the requester knows the outcome |
+| R-102 | Topic supplied; date blank; 8 participants; reason supplied | Who requests missing details, and where does progress stop? |
+| R-103 | Complete details; manager rejects the request | Notify the requester without proceeding as if approved |
+| R-104 | Complete details; manager has not responded | Who follows up, and when should someone escalate? |
 
-กลุ่มต้องตกลงกติกาที่ใช้ในแบบร่างเองและระบุว่าเป็นข้อเสนอ ไม่มี SLA หรือวงเงินอนุมัติที่ยืนยันแล้วในกรณีนี้
+Agree any additional rules as proposals and label them accordingly. This case does not establish an SLA, approval limit, or guaranteed manager response.
 
-## บัตรสถานการณ์สำหรับแยกขอบเขต
+## Physical Flow-card guidance
 
-A. แจ้งผู้ประสานงานเมื่อมีคำขอใหม่ในช่องทางที่เชื่อมต่อได้
+- Choose cards only after selecting the opportunity and learning Trigger, Action, and Condition.
+- Choose a Trigger matching the agreed start event. Select only Actions or Control cards that help explain your design.
+- Add ordinary sticky notes for human decisions, process owners, required information, exceptions, outcomes, and repeated steps.
+- Mark unconfirmed connectors, permissions, licences, policies, and data **Needs verification**.
+- The supplied `Start and wait for an approval` card is printed as a Trigger. Place it as an **Action** after a valid Trigger without altering the original.
+- Card arrangement and paper testing check conceptual clarity. They do not prove that the flow will run in a tenant.
 
-B. ตัดสินความเหมาะสมของหลักสูตรที่มีข้อยกเว้นทางธุรกิจทุกครั้ง โดยไม่มีเกณฑ์ตายตัว
+For this case, a group might propose an email-arrival Trigger, a completeness Condition, an approval Action on the complete path, and notification steps. Use sticky notes for missing or repeated steps. This is an illustrative proposal, not a verified solution or a list of connectors enabled for your organisation.
 
-C. ส่งคำขอข้อมูลเพิ่มเมื่อช่องวันที่ว่าง ตามกติกาที่ตกลงแล้ว
+## Scenario cards for Exercise 1
 
-D. เชื่อมระบบที่ยังไม่ทราบว่ามี Connector หรือสิทธิ์เข้าถึงหรือไม่
+**A.** Notify the coordinator when a request arrives through a supported, authorised connection.
 
-E. แจ้งเตือนคำขอค้างตามเวลาและผู้รับที่ตกลงไว้
+**B.** Decide whether a course is appropriate when business exceptions have no fixed rules.
 
-F. ส่งข้อความว่าอนุมัติแล้ว ทั้งที่ผู้จัดการยังไม่ตัดสินใจ
+**C.** Request missing information when the date field is blank, using an agreed rule.
 
-จัดแต่ละบัตรเป็น: **เหมาะให้ระบบช่วยตามกติกา / ต้องมีคนตัดสินใจ / ต้องตรวจข้อมูลเพิ่มก่อน** พร้อมเหตุผล
+**D.** Connect a system whose connector availability and permissions are unknown.
+
+**E.** Remind an agreed recipient about a pending request at an agreed time.
+
+**F.** Send a message saying the request is approved before the manager has decided.
+
+Sort each card into **System can help under agreed rules**, **Human decision needed**, or **More information needed**. Give a reason.
+
+## Official reference
+
+[Approval actions and prerequisites](https://learn.microsoft.com/en-us/power-automate/get-started-approvals)
+
+[Course home](/)

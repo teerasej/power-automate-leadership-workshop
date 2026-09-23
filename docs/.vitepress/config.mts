@@ -2,9 +2,9 @@ import { defineConfig } from 'vitepress'
 import { withMermaid } from 'vitepress-plugin-mermaid'
 
 export default withMermaid(defineConfig({
-  lang: 'th-TH',
+  lang: 'en-GB',
   title: 'Strategic Automation Leadership',
-  description: 'คู่มือเวิร์กช็อป Power Automate สำหรับผู้นำ',
+  description: 'English Power Automate leadership workshop guide',
   base: '/power-automate-leadership-workshop/',
   cleanUrls: true,
   lastUpdated: false,
@@ -16,58 +16,60 @@ export default withMermaid(defineConfig({
     logo: '/images/workshop-illustration.png',
     siteTitle: 'Automation Leadership',
     nav: [
-      { text: 'เส้นทางการเรียน', link: '/' },
-      { text: 'กิจกรรม', link: '/exercises/01-understand-automation' },
-      { text: 'เอกสารประกอบ', items: [
-        { text: 'ชุดสถานการณ์สมมติ', link: '/resources/case-pack' },
-        { text: 'แบบบันทึก', link: '/resources/worksheets' }
+      { text: 'Learning journey', link: '/' },
+      { text: 'Exercises', link: '/exercises/01-understand-automation' },
+      { text: 'Resources', items: [
+        { text: 'Fictional case pack', link: '/resources/case-pack' },
+        { text: 'Worksheets', link: '/resources/worksheets' },
+        { text: 'Presentation outline', link: '/resources/presentation-outline' }
       ] }
     ],
     sidebar: [
       {
-        text: 'เส้นทางการเรียน',
-        items: [{ text: 'ตารางเรียน 09:00–16:00', link: '/' }]
+        text: 'Learning journey',
+        items: [{ text: 'Timetable 09:00–16:00', link: '/' }]
       },
       {
-        text: 'กิจกรรมทั้ง 5',
+        text: 'Five exercises',
         items: [
-          { text: '1. ประโยชน์และขอบเขต', link: '/exercises/01-understand-automation' },
-          { text: '2. แผนที่จุดติดขัด', link: '/exercises/02-map-work-friction' },
-          { text: '3. เลือกโอกาส', link: '/exercises/03-prioritize-opportunity' },
+          { text: '1. Benefits and boundaries', link: '/exercises/01-understand-automation' },
+          { text: '2. Work friction map', link: '/exercises/02-map-work-friction' },
+          { text: '3. Select an opportunity', link: '/exercises/03-prioritize-opportunity' },
           { text: '4. Workflow Blueprint', link: '/exercises/04-workflow-blueprint' },
           { text: '5. Leadership Handover', link: '/exercises/05-leadership-handover' }
         ]
       },
       {
-        text: 'เอกสารประกอบ',
+        text: 'Resources',
         items: [
-          { text: 'ชุดสถานการณ์สมมติ', link: '/resources/case-pack' },
-          { text: 'แบบบันทึก', link: '/resources/worksheets' }
+          { text: 'Fictional case pack', link: '/resources/case-pack' },
+          { text: 'Worksheets', link: '/resources/worksheets' },
+        { text: 'Presentation outline', link: '/resources/presentation-outline' }
         ]
       }
     ],
-    outline: { level: [2, 3], label: 'ในหน้านี้' },
+    outline: { level: [2, 3], label: 'On this page' },
     search: {
       provider: 'local',
       options: {
         translations: {
-          button: { buttonText: 'ค้นหา', buttonAriaLabel: 'ค้นหา' },
+          button: { buttonText: 'Search', buttonAriaLabel: 'Search' },
           modal: {
-            displayDetails: 'แสดงรายละเอียด',
-            resetButtonTitle: 'ล้างคำค้นหา',
-            backButtonTitle: 'ปิดการค้นหา',
-            noResultsText: 'ไม่พบผลลัพธ์สำหรับ',
-            footer: { selectText: 'เลือก', navigateText: 'เลื่อน', closeText: 'ปิด' }
+            displayDetails: 'Show details',
+            resetButtonTitle: 'Reset search',
+            backButtonTitle: 'Close search',
+            noResultsText: 'No results for',
+            footer: { selectText: 'Select', navigateText: 'Navigate', closeText: 'Close' }
           }
         }
       }
     },
-    docFooter: { prev: 'หน้าก่อนหน้า', next: 'หน้าถัดไป' },
-    returnToTopLabel: 'กลับขึ้นด้านบน',
-    sidebarMenuLabel: 'เมนู',
-    darkModeSwitchLabel: 'ธีม',
-    lightModeSwitchTitle: 'เปลี่ยนเป็นธีมสว่าง',
-    darkModeSwitchTitle: 'เปลี่ยนเป็นธีมมืด'
+    docFooter: { prev: 'Previous page', next: 'Next page' },
+    returnToTopLabel: 'Return to top',
+    sidebarMenuLabel: 'Menu',
+    darkModeSwitchLabel: 'Theme',
+    lightModeSwitchTitle: 'Switch to light theme',
+    darkModeSwitchTitle: 'Switch to dark theme'
   },
   markdown: {
     theme: { light: 'github-light', dark: 'github-dark' }
