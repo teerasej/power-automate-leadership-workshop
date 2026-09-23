@@ -50,6 +50,31 @@ a:focus-visible, button:focus-visible, summary:focus-visible {
 .vp-doc div.language-text pre code { white-space: pre-wrap; overflow-wrap: anywhere; }
 .vp-doc .mermaid { overflow-x: auto; }
 
+.VPHome .VPHomeContent { padding-top: 0; }
+.VPHome .VPHomeContent .container { max-width: 1184px; }
+.VPHome .vp-doc > h2 { margin-top: 3.4rem; padding-top: 0; border-top: 0; color: var(--workshop-navy); font-size: clamp(1.6rem, 2.7vw, 2.2rem); }
+.VPHome .vp-doc > h2 + p { color: var(--vp-c-text-2); }
+
+.landing-hero { position: relative; display: flex; align-items: center; min-height: 580px; overflow: hidden; border-radius: 26px; background: #fffdf9; box-shadow: 0 24px 64px rgba(11, 42, 74, .12); }
+.landing-hero__image { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: center; }
+.landing-hero__copy { position: relative; z-index: 1; width: min(50%, 560px); padding: clamp(2rem, 5vw, 4rem); color: #0b2a4a; }
+.landing-hero__eyebrow, .landing-kicker { margin: 0 0 1.1rem; color: #24679e; font-size: .8rem; font-weight: 800; letter-spacing: .13em; text-transform: uppercase; }
+.landing-hero h1 { margin: 0 0 1.15rem; color: #0b2a4a; font-size: clamp(2.7rem, 5vw, 4.5rem); line-height: 1.04; letter-spacing: -.045em; }
+.landing-hero__lead { max-width: 32ch; margin: 0 0 1.3rem; color: #29455f; font-size: clamp(1rem, 1.45vw, 1.15rem); line-height: 1.55; }
+.landing-hero__time { margin: 0 0 1.8rem; color: #174f7e; font-weight: 750; }
+.landing-hero__actions { display: flex; flex-wrap: wrap; gap: .75rem; }
+.landing-button { display: inline-flex; align-items: center; justify-content: center; min-height: 46px; padding: .7rem 1rem; border: 2px solid #1f65a0; border-radius: 10px; font-weight: 750; text-decoration: none !important; }
+.landing-button--primary { color: #fff !important; background: #1f65a0; }
+.landing-button--primary:hover { background: #174f7e; border-color: #174f7e; }
+.landing-button--secondary { color: #174f7e !important; background: rgba(255, 255, 255, .92); }
+.landing-button--secondary:hover { background: #e7f0fb; }
+
+.landing-outcomes { display: grid; grid-template-columns: minmax(0, .85fr) minmax(0, 1.5fr); gap: 2rem; align-items: center; margin: 2.4rem 0 3rem; padding: 1.8rem 2rem; border: 1px solid var(--workshop-line); border-radius: 20px; background: var(--vp-c-bg-soft); }
+.landing-outcomes h2 { margin: 0; color: var(--workshop-navy); font-size: clamp(1.45rem, 2.2vw, 1.9rem); line-height: 1.2; }
+.landing-outcomes ol { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .65rem; margin: 0; padding: 0; list-style: none; }
+.landing-outcomes li { display: flex; gap: .7rem; align-items: flex-start; margin: 0; padding: .9rem; border: 1px solid var(--workshop-line); border-radius: 12px; background: var(--vp-c-bg); color: var(--vp-c-text-1); font-weight: 600; line-height: 1.4; }
+.landing-outcomes li span { color: var(--workshop-blue); font-size: .8rem; font-weight: 800; }
+
 .journey-intro {
   display: grid;
   grid-template-columns: minmax(0, 1.2fr) minmax(260px, .8fr);
@@ -100,7 +125,19 @@ a:focus-visible, button:focus-visible, summary:focus-visible {
   .progress-label { display: none; }
   .course-progress a { justify-content: center; }
 }
+@media (max-width: 900px) {
+  .landing-hero { min-height: 0; flex-direction: column; align-items: stretch; }
+  .landing-hero__copy { width: 100%; padding: 2rem; }
+  .landing-hero__lead { max-width: 55ch; }
+  .landing-hero__image { position: relative; inset: auto; height: auto; object-fit: contain; }
+  .landing-outcomes { grid-template-columns: 1fr; }
+}
 @media (max-width: 680px) {
+  .landing-hero { border-radius: 18px; }
+  .landing-hero__copy { padding: 1.5rem; }
+  .landing-hero h1 { font-size: clamp(2.5rem, 10vw, 3.4rem); }
+  .landing-outcomes { margin: 1.5rem 0 2.3rem; padding: 1.25rem; }
+  .landing-outcomes ol { grid-template-columns: 1fr; }
   .vp-doc .mermaid svg { min-width: 560px; }
   .journey-intro { grid-template-columns: 1fr; }
   .workshop-visual img { aspect-ratio: 16 / 9; object-position: center 44%; }

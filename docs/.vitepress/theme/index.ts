@@ -4,6 +4,7 @@ import CourseJourney from './components/CourseJourney.vue'
 import CourseProgress from './components/CourseProgress.vue'
 import ExerciseFooter from './components/ExerciseFooter.vue'
 import DownloadDeck from './components/DownloadDeck.vue'
+import LandingHero from './components/LandingHero.vue'
 import './custom.css'
 
 export default {
@@ -13,5 +14,6 @@ export default {
     app.component('CourseProgress', CourseProgress)
     app.component('ExerciseFooter', ExerciseFooter)
     app.component('DownloadDeck', DownloadDeck)
+    app.component('LandingHero', LandingHero)
   }
 } satisfies Theme

@@ -16,7 +16,8 @@ export default withMermaid(defineConfig({
     logo: '/images/workshop-illustration.png',
     siteTitle: 'Automation Leadership',
     nav: [
-      { text: 'Learning journey', link: '/' },
+      { text: 'Home', link: '/' },
+      { text: 'About the exercise', link: '/about' },
       { text: 'Exercises', link: '/exercises/01-understand-automation' },
       { text: 'Resources', items: [
         { text: 'Fictional case pack', link: '/resources/case-pack' },
@@ -26,8 +27,11 @@ export default withMermaid(defineConfig({
     ],
     sidebar: [
       {
-        text: 'Learning journey',
-        items: [{ text: 'Timetable 09:00–16:00', link: '/' }]
+        text: 'Getting started',
+        items: [
+          { text: 'Home and timetable', link: '/' },
+          { text: 'About the exercise', link: '/about' }
+        ]
       },
       {
         text: 'Five exercises',
