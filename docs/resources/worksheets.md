@@ -27,17 +27,44 @@ Scores from 1–3 support a discussion. They are not an ROI formula.
 
 Screen every pain point before comparing scores. A high score never overrides a stop condition.
 
+For each pain point, write **Yes**, **No**, or **Needs verification** in every question column:
+
 | Pain point | Sensitive or restricted data? | Material harm if wrong? | Rules unstable? | Frequent unowned exceptions? | Owner missing? | Gate status and reason |
 |---|---|---|---|---|---|---|
 | A | | | | | | |
 | B | | | | | | |
 | C | | | | | | |
 
-Use one status:
+- **Sensitive or restricted data?** Does the work use personal, customer, employee, confidential, regulated, or access-restricted information?
+- **Material harm if wrong?** Could an incorrect, missed, or delayed result cause significant financial, legal, safety, customer, or employee harm?
+- **Rules unstable?** Do the decision rules change often, depend heavily on judgement, or remain disputed?
+- **Frequent unowned exceptions?** Do unusual cases happen often without a clear person responsible for resolving them?
+- **Owner missing?** Is there no named role accountable for the process and its decisions?
+
+In **Gate status and reason**:
+  - write **Proceed to compare** when every answer is **No**
+  - write **Explore after validation** when there is no **Yes** but at least one answer is **Needs verification**
+  - write **Do not progress in this workshop** when any answer is **Yes**. Add a short reason based on the evidence available.
+
+
+
+Use one status for final readiness gate evaluation:
 
 - **Proceed to compare**: no stop condition identified; compare it with the same criteria as the others.
 - **Explore after validation**: a responsible role must validate a gap before the idea progresses.
 - **Do not progress in this workshop**: sensitive information, material harm, unstable rules, frequent unowned exceptions, or missing ownership makes this candidate unsuitable for the workshop Blueprint.
+
+
+
+### Selection table
+
+| Pain point | Gate status | Impact | Frequency | Readiness | Total /9 | Effort: Low / Medium / High | Evidence and outstanding checks |
+|---|---|---:|---:|---:|---:|---|---|
+| A | | | | | | | |
+| B | | | | | | | |
+| C | | | | | | | |
+
+### Criterion for Selection
 
 | Criterion | 1 | 2 | 3 |
 |---|---|---|---|
@@ -45,11 +72,7 @@ Use one status:
 | Frequency | Occasional | Weekly | Daily or high volume |
 | Readiness | Rules, information, or owner unclear | Partly clear, with gaps | Scope, rules, and owner clear |
 
-| Pain point | Gate status | Impact | Frequency | Readiness | Total /9 | Effort: Low / Medium / High | Evidence and outstanding checks |
-|---|---|---:|---:|---:|---:|---|---|
-| A | | | | | | | |
-| B | | | | | | | |
-| C | | | | | | | |
+### Final Selection
 
 Selected opportunity: __________ Reason: __________
 

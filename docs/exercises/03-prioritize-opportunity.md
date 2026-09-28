@@ -9,7 +9,7 @@ description: "English learner instructions for Exercise 3: Select an opportunity
 
 Compare the three pain points using the same criteria, then choose a manageable opportunity with a clear owner.
 
-**Time:** 13:10–13:50, 40 minutes.
+**Time:** 13:10–13:55, 45 minutes.
 
 > **Licence:** This paper activity requires no paid software licence or Power Automate account.
 
@@ -19,11 +19,13 @@ Compare the three pain points using the same criteria, then choose a manageable 
 - Open the [case pack](/resources/case-pack) and [worksheets](/resources/worksheets).
 - If starting here, use the three pain points in the case pack. Have sticky notes, pens, and large paper ready.
 
-## Practice 1: Apply the readiness gate (8 minutes) {#practice-1}
+## Practice 1: Apply the readiness gate (15 minutes) {#practice-1}
 
 **Primary target:** Assign a workshop progression status to each candidate using explicit stop conditions.
 
 **Learner output:** Three candidates marked **Proceed to compare**, **Explore after validation**, or **Do not progress in this workshop**, with reasons.
+
+Open and draw table for [the readiness gate evaluation](/resources/worksheets#readiness-gate) on the flipchart
 
 1. Screen pain points A–C using the readiness gate in Worksheet 3.
 2. Look for sensitive or restricted information, material harm if the result is wrong, unstable rules, frequent unowned exceptions, and missing ownership.
@@ -34,14 +36,16 @@ Compare the three pain points using the same criteria, then choose a manageable 
 
 All three candidates have a gate status and evidence-based reason. Any stop condition remains visible.
 
-## Practice 2: Compare and select (22 minutes) {#practice-2}
+## Practice 2: Compare and select (20 minutes) {#practice-2}
 
 **Primary target:** Select one manageable opportunity using comparable evidence.
 
 **Learner output:** A scored comparison with qualitative effort, plus one selected boundary and owner.
 
+Open and draw table for [the selection table](/resources/worksheets#selection-table).
+
 1. For candidates still eligible for comparison, propose scores from 1–3 for impact, frequency, and readiness, with a reason for each.
-2. Agree a group score for each criterion. Record uncertainty; votes do not turn assumptions into facts.
+2. Agree a group score for each criterion, [using the 1–3 scale in the selection table](/resources/worksheets#criterion-for-selection)
 3. Estimate effort as **Low**, **Medium**, or **High**. Treat this as a qualitative planning signal, not a cost estimate.
 4. Total the three numeric scores out of 9. For a tie, prefer the smaller scope, lower effort, and clearer ownership.
 5. Select one opportunity and define its start, end, owner, and outstanding checks.

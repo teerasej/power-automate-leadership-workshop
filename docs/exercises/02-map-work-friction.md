@@ -58,6 +58,7 @@ The map has 5–8 steps, a start, an end, a responsible role for every step, and
 3. Explain who is affected and what happens, such as re-entering information or being unable to notify the requester.
 4. Distinguish routing problems from problems that first need clearer rules or responsibilities.
 
+
 ### Checkpoint
 
 At least three friction points have an impact
