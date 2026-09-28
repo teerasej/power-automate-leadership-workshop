@@ -5,6 +5,8 @@ description: "English learner instructions for Exercise 5: Review and hand over 
 
 # Exercise 5: Review and hand over the Blueprint
 
+<ExerciseModuleHeader :module="3" />
+
 <CourseProgress :current="5" />
 
 Turn your paper-tested workflow into a short description. Use live Copilot Chat or the labelled facilitator fallback to identify gaps, then judge every review item before completing the Leadership Handover Card.

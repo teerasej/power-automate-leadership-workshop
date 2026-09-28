@@ -3,6 +3,7 @@ import type { Theme } from 'vitepress'
 import CourseJourney from './components/CourseJourney.vue'
 import CourseProgress from './components/CourseProgress.vue'
 import ExerciseFooter from './components/ExerciseFooter.vue'
+import ExerciseModuleHeader from './components/ExerciseModuleHeader.vue'
 import DownloadDeck from './components/DownloadDeck.vue'
 import LandingHero from './components/LandingHero.vue'
 import './custom.css'
@@ -13,6 +14,7 @@ export default {
     app.component('CourseJourney', CourseJourney)
     app.component('CourseProgress', CourseProgress)
     app.component('ExerciseFooter', ExerciseFooter)
+    app.component('ExerciseModuleHeader', ExerciseModuleHeader)
     app.component('DownloadDeck', DownloadDeck)
     app.component('LandingHero', LandingHero)
   }

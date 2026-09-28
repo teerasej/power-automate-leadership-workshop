@@ -61,17 +61,23 @@ For this case, a group might propose an email-arrival Trigger, a completeness Co
 
 ## Scenario cards for Exercise 1
 
-**A.** Notify the coordinator when a request arrives through a supported, authorised connection.
+Use this guide for each scenario:
 
-**B.** Decide whether a course is appropriate when business exceptions have no fixed rules.
+1. If a rule, access, or responsible person is unknown, choose **More information needed**.
+2. Otherwise, if someone must judge or approve, choose **Human decision needed**.
+3. Otherwise, when the rule and access are clear, choose **System can help under agreed rules**.
 
-**C.** Request missing information when the date field is blank, using an agreed rule.
+**A.** A request arrives in the approved mailbox. Notify the coordinator.
 
-**D.** Connect a system whose connector availability and permissions are unknown.
+**B.** A request does not match an agreed rule. A manager must decide whether it is suitable.
 
-**E.** Remind an agreed recipient about a pending request at an agreed time.
+**C.** The date is blank. The agreed rule says to ask the requester for it.
 
-**F.** Send a message saying the request is approved before the manager has decided.
+**D.** Copy data from another system. Access has not been confirmed.
+
+**E.** At the agreed time, remind the agreed person about a waiting request.
+
+**F.** The manager has not decided. Tell the requester it is approved.
 
 Sort each card into **System can help under agreed rules**, **Human decision needed**, or **More information needed**. Give a reason.
 

@@ -86,7 +86,7 @@ English learner outline aligned to the revised 40-slide presentation. Exercise 1
 
 [Official reference 1](https://learn.microsoft.com/en-us/power-automate/get-started-approvals)
 
-## Slide 9: The A4 before-and-after canvas
+## Slide 9: The flipchart before-and-after canvas
 
 **Block 1 · 09:35–09:50 · 15 minutes**
 
@@ -104,9 +104,9 @@ English learner outline aligned to the revised 40-slide presentation. Exercise 1
 
 **Block 1 · 09:50–10:00 · 10 minutes**
 
-- A: Notify on arrival through an authorised connection
-- B: Decide suitability where exceptions have no fixed rules
-- C: Request a missing date using an agreed rule
+- A: A request arrives in the approved mailbox. Notify the coordinator.
+- B: A request does not match an agreed rule. A manager must decide whether it is suitable.
+- C: The date is blank. The agreed rule says to ask the requester for it.
 
 [Exercise instructions](https://teerasej.github.io/power-automate-leadership-workshop/exercises/01-understand-automation)
 
@@ -116,9 +116,9 @@ English learner outline aligned to the revised 40-slide presentation. Exercise 1
 
 **Block 1 · 10:00–10:10 · 10 minutes**
 
-- D: Connect a system when access is unknown
-- E: Remind an agreed recipient at an agreed time
-- F: Say approved before the manager decides
+- D: Copy data from another system. Access has not been confirmed.
+- E: At the agreed time, remind the agreed person about a waiting request.
+- F: The manager has not decided. Tell the requester it is approved.
 
 [Exercise instructions](https://teerasej.github.io/power-automate-leadership-workshop/exercises/01-understand-automation)
 

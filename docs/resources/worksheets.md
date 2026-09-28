@@ -1,6 +1,6 @@
 # Batch 1 activity worksheets
 
-These templates are optional references for review after the activity. Exercise 1 uses two blank A4 sheets, sticky notes, and a flipchart instead of opening or printing Worksheets 1A–1C. Blank fields are for learner input, not confirmed information.
+These templates are optional references for review after the activity. Exercise 1 uses two flipchart sheets, one blank A4 sheet, and sticky notes instead of opening or printing Worksheets 1A–1C. Blank fields are for learner input, not confirmed information.
 
 ## 1A. Before and after automation
 
@@ -14,7 +14,7 @@ These templates are optional references for review after the activity. Exercise 
 
 ## 1B. Scenario classification
 
-Use the exact labels from Exercise 1. Record the reason instead of relying on the label alone.
+Use the exact labels from Exercise 1. Check unknown information first, then human judgement, then clear rules. Record the reason instead of relying on the label alone.
 
 | Card | Classification | Reason from the scenario | Unresolved question and verification owner |
 |---|---|---|---|

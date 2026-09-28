@@ -5,6 +5,8 @@ description: "English learner instructions for Exercise 2: Map work and friction
 
 # Exercise 2: Map work and friction
 
+<ExerciseModuleHeader :module="2" />
+
 <CourseProgress :current="2" />
 
 Think of a kitchen with orders waiting at different stations. Before choosing equipment, find where work stops and who is waiting for whom.
@@ -24,7 +26,7 @@ Think of a kitchen with orders waiting at different stations. Before choosing eq
 
 **Primary target:** Create a current-process map that makes handovers visible.
 
-**Learner output:** A 5–8-step current-process map in Worksheet 2 with visible handover information or status.
+**Learner output:** A 5–8-step current-process map in Worksheet 2.
 
 1. Agree where the process starts and ends. Record this in Worksheet 2.
 2. Write one action on each sticky note, such as check details, request review, or notify the requester.
