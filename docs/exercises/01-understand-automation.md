@@ -104,10 +104,7 @@ Ask the facilitator to repeat the projected case or scenario. Mark unknown rules
 
 You have identified work a system could support and decisions people retain. Use this distinction when mapping friction in Exercise 2.
 
-## Official references
 
-- [Triggers](https://learn.microsoft.com/en-us/power-automate/triggers-introduction)
-- [Approvals and human decisions](https://learn.microsoft.com/en-us/power-automate/get-started-approvals)
 
 [Course home](/) · [Next exercise](/exercises/02-map-work-friction)
 

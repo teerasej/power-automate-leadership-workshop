@@ -2,23 +2,6 @@
 
 These templates support Exercises 2–5. Exercise 1 uses flipchart sheets, one blank A4 sheet, and sticky notes, so it has no worksheet on this page. Blank fields are for learner input, not confirmed information.
 
-## 2. Work Friction Map
-
-Process: __________ Start: __________ End: __________
-
-| Step | Responsible role | Information or status received | Information or status passed on | Friction | Evidence or unknowns |
-|---|---|---|---|---|---|
-| | | | | | |
-| | | | | | |
-| | | | | | |
-| | | | | | |
-| | | | | | |
-| | | | | | |
-| | | | | | |
-| | | | | | |
-
-Three pain points to compare: A __________ / B __________ / C __________
-
 ## 3. Opportunity Selection
 
 Scores from 1–3 support a discussion. They are not an ROI formula.
@@ -27,13 +10,22 @@ Scores from 1–3 support a discussion. They are not an ROI formula.
 
 Screen every pain point before comparing scores. A high score never overrides a stop condition.
 
+#### How to use the readiness gate
+
+1. Review pain points A, B, and C one row at a time.
+2. For each question, write **Yes**, **No**, or **Needs verification**. Use known evidence rather than assumptions.
+3. If you write **Needs verification**, record the open question and the role responsible for answering it in **Gate status and reason**.
+4. Do not count or total the answers. One confirmed **Yes** is enough to mark the pain point **Do not progress in this workshop**.
+5. If there is no confirmed stop condition but an answer still needs verification, mark the pain point **Explore after validation**.
+6. If every answer is **No**, mark the pain point **Proceed to compare** and briefly record why.
+
 | Pain point | Sensitive or restricted data? | Material harm if wrong? | Rules unstable? | Frequent unowned exceptions? | Owner missing? | Gate status and reason |
 |---|---|---|---|---|---|---|
 | A | | | | | | |
 | B | | | | | | |
 | C | | | | | | |
 
-Use one status:
+#### Use one status on the gate column for each pain point:
 
 - **Proceed to compare**: no stop condition identified; compare it with the same criteria as the others.
 - **Explore after validation**: a responsible role must validate a gap before the idea progresses.
@@ -51,7 +43,7 @@ Use one status:
 | B | | | | | | | |
 | C | | | | | | | |
 
-Selected opportunity: __________ Reason: __________
+Selected opportunity: __________ 
 
 Start event: __________ End outcome: __________
 

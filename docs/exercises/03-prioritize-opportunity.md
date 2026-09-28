@@ -11,7 +11,7 @@ description: "English learner instructions for Exercise 3: Select an opportunity
 
 Compare the three pain points using the same criteria, then choose a manageable opportunity with a clear owner.
 
-**Time:** 13:10–13:40, 30 minutes.
+**Time:** 13:10–13:50, 30 minutes.
 
 > **Licence:** This paper activity requires no paid software licence or Power Automate account.
 
@@ -21,7 +21,7 @@ Compare the three pain points using the same criteria, then choose a manageable 
 - Open the [case pack](/resources/case-pack) and [worksheets](/resources/worksheets).
 - If starting here, use the three pain points in the case pack. Have sticky notes, pens, and large paper ready.
 
-## Practice 1: Apply the readiness gate (8 minutes) {#practice-1}
+## Practice 1: Apply the readiness gate (10 minutes) {#practice-1}
 
 **Primary target:** Assign a workshop progression status to each candidate using explicit stop conditions.
 
@@ -38,7 +38,7 @@ Open and draw [Worksheet 3: Opportunity Selection](/resources/worksheets#readine
 
 All three candidates have a gate status.
 
-## Practice 2: Compare and select (22 minutes) {#practice-2}
+## Practice 2: Compare and select (20 minutes) {#practice-2}
 
 **Primary target:** Select one manageable opportunity using comparable evidence.
 
