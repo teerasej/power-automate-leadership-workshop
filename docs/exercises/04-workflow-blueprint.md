@@ -29,7 +29,7 @@ Arrange a recipe on the table before entering the kitchen. Use the facilitator's
 **Learner output:** A physical normal path and matching Worksheet 4 sequence.
 
 ::: tip Start your group challenge
-Open the challenge assigned to your group. The scenario details are in Thai, while every Power Automate card name remains in English exactly as printed on the physical deck.
+Open the challenge assigned to your group. Every Power Automate card name appears exactly as printed on the physical deck.
 
 | Group | Dedicated challenge |
 |---|---|

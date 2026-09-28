@@ -1,51 +1,51 @@
 ---
 title: "Group 6: Controlled-document approval"
-description: "Thai Flow-card challenge for Group 6"
+description: "Flow-card challenge for Group 6"
 ---
 
 # Group 6: Controlled-document approval
 
-## สถานการณ์
+## Scenario
 
-เมื่อมีการแก้ไขไฟล์ในโฟลเดอร์เอกสารรอตรวจ เจ้าของการควบคุมต้องพิจารณา หากอนุมัติให้สร้างสำเนาในโฟลเดอร์ `Approved` ที่อยู่นอกโฟลเดอร์ต้นทาง หากไม่อนุมัติให้แจ้งผู้ประสานงานทางอีเมล
+When a file is modified in the pending-review folder, the control owner must review it. If the file is approved, a copy must be created in an `Approved` folder outside the source folder. If it is rejected, the coordinator must be notified by email.
 
-ใช้ไฟล์ข้อความสมมติเท่านั้น ห้ามใช้เอกสารนโยบาย สัญญา หรือข้อมูลจริง
+Use fictional text files only. Do not use real policies, contracts, or information.
 
 ## Challenge
 
-จัด Flow cards ให้เริ่มเมื่อไฟล์ถูกแก้ไข รอผลการอนุมัติ และจบด้วยการสร้างสำเนาที่อนุมัติแล้วหรือการแจ้งไม่อนุมัติ โดยไม่ทำให้ workflow เริ่มซ้ำจากไฟล์ที่ตัวเองสร้าง
+Arrange the Flow cards so that the workflow starts when a file is modified, waits for an approval outcome, and ends by either creating an approved copy or sending a rejection notice. The file created by the workflow must not trigger the workflow again.
 
-> **ขอบเขต:** ใช้เฉพาะ node cards ในชุดจริง การตรวจเนื้อหา เหตุผลการตัดสินใจ และเจ้าของการควบคุมต้องอยู่บน post-it ในฐานะ human responsibility
+> **Boundary:** Use only the node cards in the physical deck. Record the content review, decision rationale, and control owner on sticky notes as human responsibilities.
 
-## ข้อมูลทดสอบ
+## Test data
 
-### กรณีปกติ
+### Normal case
 
-- โฟลเดอร์ต้นทาง: `Pending Review`
-- ไฟล์สมมติ: `procedure-draft.txt`
-- ขนาด: ต่ำกว่า 50 MB
-- ผลการพิจารณา: `Approve`
-- ผลที่คาดหวัง: สร้างไฟล์ในโฟลเดอร์ `Approved` ที่ไม่อยู่ใต้โฟลเดอร์ซึ่ง Trigger เฝ้าดู
+- Source folder: `Pending Review`
+- Fictional file: `procedure-draft.txt`
+- Size: less than 50 MB.
+- Decision: `Approve`
+- Expected outcome: a file is created in an `Approved` folder that is not inside the folder monitored by the Trigger.
 
-### กรณียกเว้น
+### Exception case
 
-- ใช้ไฟล์สมมติเดิม
-- ผลการพิจารณา: `Reject`
-- ผลที่คาดหวัง: ไม่สร้างไฟล์ใน `Approved` และผู้ประสานงานได้รับอีเมล
+- Use the same fictional file.
+- Decision: `Reject`
+- Expected outcome: no file is created in `Approved`, and the coordinator receives an email.
 
-### ข้อจำกัดที่ต้องบันทึก
+### Limitation to record
 
-- Trigger `When a file is modified` อาจข้ามไฟล์ที่มีขนาดใหญ่กว่า 50 MB
+- The `When a file is modified` Trigger may skip files larger than 50 MB.
 
-## ก่อนเริ่มเรียงการ์ด
+## Before arranging the cards
 
-1. ระบุโฟลเดอร์ต้นทางและปลายทางให้ชัดเจนและไม่ซ้อนกัน
-2. วางการอนุมัติเป็น Action หลัง Trigger
-3. ใช้ผลการอนุมัติเป็นคำถาม Yes/No
-4. ตรวจว่า Action สร้างไฟล์ได้รับ Folder Path, File Name และ File Content ครบ
+1. Identify the source and destination folders clearly and make sure they do not overlap.
+2. Place the approval as an Action after the Trigger.
+3. Use the approval outcome in the Yes/No question.
+4. Check that the file-creation Action receives the Folder Path, File Name, and File Content.
 
 ## Checkpoint
 
-กลุ่มเดินทดสอบการอนุมัติและไม่อนุมัติได้ โดยเส้นทางอนุมัติสร้างไฟล์ในปลายทางที่ไม่ย้อนกลับไปเรียก Trigger และกลุ่มระบุข้อจำกัด 50 MB ได้
+The group can walk through both approval and rejection. The approval path creates a file in a destination that does not trigger the workflow again, and the group can identify the 50 MB limitation.
 
-[ไป Group 5](/exercises/04-workflow-blueprint/group-5) · [กลับไป Practice 1](/exercises/04-workflow-blueprint#practice-1)
+[Previous: Group 5](/exercises/04-workflow-blueprint/group-5) · [Back to Practice 1](/exercises/04-workflow-blueprint#practice-1)
