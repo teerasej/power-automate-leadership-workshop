@@ -2,6 +2,8 @@
 
 All information is fictional and provided for learning. It does not describe any organisation's actual process, policy, or performance.
 
+> **Optional reference:** Exercise 1 is designed to run from the projected presentation and spoken facilitator prompts. Participants do not need to open this file during the activity.
+
 ## One case throughout the day
 
 A coordination team receives training requests by email. Each request needs a topic, date, participant count, and business reason. A coordinator checks the details, copies them into a register, sends the request to a manager, and communicates the decision. Requesters often email for status updates while waiting.

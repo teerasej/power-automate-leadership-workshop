@@ -1,6 +1,6 @@
 # Strategic Automation Leadership: Presentation outline
 
-English learner outline aligned to the revised 39-slide presentation. This is a conceptual design workshop, not a Power Automate build or deployment exercise. The hierarchy is three Modules, four Delivery blocks, five Exercises, and focused Practices.
+English learner outline aligned to the revised 40-slide presentation. Exercise 1 requires no participant computer, account, download, or opened file. This is a conceptual design workshop, not a Power Automate build or deployment exercise. The hierarchy is three Modules, four Delivery blocks, five Exercises, and focused Practices.
 
 ## Timetable
 
@@ -76,41 +76,55 @@ English learner outline aligned to the revised 39-slide presentation. This is a 
 
 **Block 1 · 09:30–09:35 · 5 minutes**
 
-- Requester submits details
-- Coordinator checks and registers
+- Requester submits required details
+- Coordinator checks completeness
+- Coordinator records the request
 - Manager approves or rejects
-- Coordinator notifies requester
+- Coordinator notifies the requester
 
 [Exercise instructions](/exercises/01-understand-automation)
 
 [Official reference 1](https://learn.microsoft.com/en-us/power-automate/get-started-approvals)
 
-## Slide 9: Before and after
+## Slide 9: The A4 before-and-after canvas
 
 **Block 1 · 09:35–09:50 · 15 minutes**
 
-- Choose one repeated step
-- Describe the proposed change
-- Name the human decision owner
-- Name who checks the output
+- Current repeated step
+- System could support
+- Human decision
+- Check before trial
+- Expected benefit
 
 [Exercise instructions](/exercises/01-understand-automation)
 
 [Official reference 1](https://learn.microsoft.com/en-us/power-automate/get-started-approvals)
 
-## Slide 10: Scenario cards A–F
+## Slide 10: Scenario prompts A–C
 
-**Block 1 · 09:50–10:10 · 20 minutes**
+**Block 1 · 09:50–10:00 · 10 minutes**
 
-- System can help under agreed rules
-- Human decision needed
-- More information needed
+- A: Notify on arrival through an authorised connection
+- B: Decide suitability where exceptions have no fixed rules
+- C: Request a missing date using an agreed rule
 
 [Exercise instructions](/exercises/01-understand-automation)
 
 [Official reference 1](https://learn.microsoft.com/en-us/power-automate/get-started-approvals)
 
-## Slide 11: Questions from the groups
+## Slide 11: Scenario prompts D–F
+
+**Block 1 · 10:00–10:10 · 10 minutes**
+
+- D: Connect a system when access is unknown
+- E: Remind an agreed recipient at an agreed time
+- F: Say approved before the manager decides
+
+[Exercise instructions](/exercises/01-understand-automation)
+
+[Official reference 1](https://learn.microsoft.com/en-us/power-automate/get-started-approvals)
+
+## Slide 12: Questions from the groups
 
 **Block 1 · 10:10–10:25 · 15 minutes**
 
@@ -118,7 +132,7 @@ English learner outline aligned to the revised 39-slide presentation. This is a 
 - Which rule or detail remains unclear?
 - What must the process owner or IT confirm?
 
-## Slide 12: Block 1 checkpoint
+## Slide 13: Block 1 checkpoint
 
 **Block 1 · 10:25–10:30 · 5 minutes**
 
@@ -126,7 +140,7 @@ English learner outline aligned to the revised 39-slide presentation. This is a 
 - People retain accountability
 - After the break: test your understanding
 
-## Slide 13: Knowledge check
+## Slide 14: Knowledge check
 
 **Block 2 · 10:45–11:00 · 15 minutes**
 
@@ -136,17 +150,17 @@ English learner outline aligned to the revised 39-slide presentation. This is a 
 
 [Exercise instructions](/exercises/01-understand-automation)
 
-## Slide 14: Known facts and open questions
+## Slide 15: Known facts and open questions
 
 **Block 2 · 11:00–11:05 · 5 minutes**
 
-- Clear rules make a starting point
-- Notifications do not make the decision
-- Readiness needs evidence and an owner
+- Known fact
+- Open question
+- Verification owner
 
 [Official reference 1](https://learn.microsoft.com/en-us/power-automate/get-started-approvals)
 
-## Slide 15: Unlocking Operational Bottlenecks
+## Slide 16: Unlocking Operational Bottlenecks
 
 **Block 2 · 11:05–11:08 · 3 minutes**
 
@@ -154,7 +168,7 @@ English learner outline aligned to the revised 39-slide presentation. This is a 
 - Show handovers and waiting
 - Connect pain points to evidence
 
-## Slide 16: Where requests wait
+## Slide 17: Where requests wait
 
 **Block 2 · 11:08–11:15 · 7 minutes**
 
@@ -162,7 +176,7 @@ English learner outline aligned to the revised 39-slide presentation. This is a 
 - Waiting for a decision is a separate issue
 - Locate the problem before proposing a solution
 
-## Slide 17: Current-process map
+## Slide 18: Current-process map
 
 **Block 2 · 11:15–11:30 · 15 minutes**
 
@@ -173,7 +187,7 @@ English learner outline aligned to the revised 39-slide presentation. This is a 
 
 [Exercise instructions](/exercises/02-map-work-friction)
 
-## Slide 18: Four types of friction
+## Slide 19: Four types of friction
 
 **Block 2 · 11:30–11:50 · 20 minutes**
 
@@ -183,7 +197,7 @@ English learner outline aligned to the revised 39-slide presentation. This is a 
 
 [Exercise instructions](/exercises/02-map-work-friction)
 
-## Slide 19: Three pain points to compare
+## Slide 20: Three pain points to compare
 
 **Block 2 · 11:50–11:55 · 5 minutes**
 
@@ -193,7 +207,7 @@ English learner outline aligned to the revised 39-slide presentation. This is a 
 
 [Exercise instructions](/exercises/02-map-work-friction)
 
-## Slide 20: Block 2 checkpoint
+## Slide 21: Block 2 checkpoint
 
 **Block 2 · 11:55–12:00 · 5 minutes**
 
@@ -201,7 +215,7 @@ English learner outline aligned to the revised 39-slide presentation. This is a 
 - Three evidence-linked pain points
 - After lunch: select one opportunity
 
-## Slide 21: Opportunity readiness gate
+## Slide 22: Opportunity readiness gate
 
 **Block 3 · 13:00–13:10 · 10 minutes**
 
@@ -209,7 +223,7 @@ English learner outline aligned to the revised 39-slide presentation. This is a 
 - Explore after validation
 - Do not progress in this workshop
 
-## Slide 22: Compare eligible opportunities
+## Slide 23: Compare eligible opportunities
 
 **Block 3 · 13:10–13:30 · 20 minutes**
 
@@ -219,7 +233,7 @@ English learner outline aligned to the revised 39-slide presentation. This is a 
 
 [Exercise instructions](/exercises/03-prioritize-opportunity)
 
-## Slide 23: A manageable boundary
+## Slide 24: A manageable boundary
 
 **Block 3 · 13:30–13:40 · 10 minutes**
 
@@ -229,7 +243,7 @@ English learner outline aligned to the revised 39-slide presentation. This is a 
 
 [Exercise instructions](/exercises/03-prioritize-opportunity)
 
-## Slide 24: Peer scope review
+## Slide 25: Peer scope review
 
 **Block 3 · 13:40–13:50 · 10 minutes**
 
@@ -239,7 +253,7 @@ English learner outline aligned to the revised 39-slide presentation. This is a 
 
 [Exercise instructions](/exercises/03-prioritize-opportunity)
 
-## Slide 25: The selected bottleneck
+## Slide 26: The selected bottleneck
 
 **Block 3 · 13:50–13:55 · 5 minutes**
 
@@ -247,13 +261,13 @@ English learner outline aligned to the revised 39-slide presentation. This is a 
 - A clear boundary and owner
 - Carry the same opportunity forward
 
-## Slide 26: Strategic Workflow Blueprinting
+## Slide 27: Strategic Workflow Blueprinting
 
 **Block 3 · 13:55–13:59 · 4 minutes**
 
 - Steps, decisions, and exceptions
 
-## Slide 27: Triggers, Actions, and connectors
+## Slide 28: Triggers, Actions, and connectors
 
 **Block 3 · 13:59–14:03 · 4 minutes**
 
@@ -263,7 +277,7 @@ English learner outline aligned to the revised 39-slide presentation. This is a 
 
 [Official reference 1](https://learn.microsoft.com/en-us/power-automate/triggers-introduction) · [Official reference 2](https://learn.microsoft.com/en-us/connectors/overview)
 
-## Slide 28: Conditions and human decisions
+## Slide 29: Conditions and human decisions
 
 **Block 3 · 14:03–14:07 · 4 minutes**
 
@@ -273,7 +287,7 @@ English learner outline aligned to the revised 39-slide presentation. This is a 
 
 [Official reference 1](https://learn.microsoft.com/en-us/power-automate/get-started-approvals) · [Official reference 2](https://learn.microsoft.com/en-us/power-automate/add-condition)
 
-## Slide 29: Workflow Blueprint anatomy
+## Slide 30: Workflow Blueprint anatomy
 
 **Block 3 · 14:07–14:10 · 3 minutes**
 
@@ -284,7 +298,7 @@ English learner outline aligned to the revised 39-slide presentation. This is a 
 
 [Official reference 1](https://learn.microsoft.com/en-us/power-automate/triggers-introduction) · [Official reference 2](https://learn.microsoft.com/en-us/power-automate/get-started-approvals) · [Official reference 3](https://learn.microsoft.com/en-us/power-automate/add-condition)
 
-## Slide 30: Flow cards: the normal path
+## Slide 31: Flow cards: the normal path
 
 **Block 3 · 14:10–14:25 · 15 minutes**
 
@@ -297,7 +311,7 @@ English learner outline aligned to the revised 39-slide presentation. This is a 
 
 [Official reference 1](https://learn.microsoft.com/en-us/power-automate/triggers-introduction) · [Official reference 2](https://learn.microsoft.com/en-us/power-automate/get-started-approvals)
 
-## Slide 31: Block 3 checkpoint
+## Slide 32: Block 3 checkpoint
 
 **Block 3 · 14:25–14:30 · 5 minutes**
 
@@ -305,7 +319,7 @@ English learner outline aligned to the revised 39-slide presentation. This is a 
 - A visible Trigger-to-outcome path
 - After the break: people and exceptions
 
-## Slide 32: Flow cards: people and exceptions
+## Slide 33: Flow cards: people and exceptions
 
 **Block 4 · 14:45–15:05 · 20 minutes**
 
@@ -317,7 +331,7 @@ English learner outline aligned to the revised 39-slide presentation. This is a 
 
 [Official reference 1](https://learn.microsoft.com/en-us/power-automate/get-started-approvals) · [Official reference 2](https://learn.microsoft.com/en-us/power-automate/add-condition)
 
-## Slide 33: Walk-test two cases
+## Slide 34: Walk-test two cases
 
 **Block 4 · 15:05–15:20 · 15 minutes**
 
@@ -327,7 +341,7 @@ English learner outline aligned to the revised 39-slide presentation. This is a 
 
 [Exercise instructions](/exercises/04-workflow-blueprint)
 
-## Slide 34: Text for Copilot review
+## Slide 35: Text for Copilot review
 
 **Block 4 · 15:20–15:25 · 5 minutes**
 
@@ -339,7 +353,7 @@ English learner outline aligned to the revised 39-slide presentation. This is a 
 
 [Official reference 1](https://learn.microsoft.com/en-us/copilot/overview) · [Official reference 2](https://learn.microsoft.com/en-us/copilot/privacy-and-protections)
 
-## Slide 35: Copilot as a second reader
+## Slide 36: Copilot as a second reader
 
 **Block 4 · 15:25–15:27 · 2 minutes**
 
@@ -351,7 +365,7 @@ English learner outline aligned to the revised 39-slide presentation. This is a 
 
 [Official reference 1](https://learn.microsoft.com/en-us/copilot/overview) · [Official reference 2](https://learn.microsoft.com/en-us/copilot/privacy-and-protections)
 
-## Slide 36: Human judgement after Copilot
+## Slide 37: Human judgement after Copilot
 
 **Block 4 · 15:27–15:30 · 3 minutes**
 
@@ -361,7 +375,7 @@ English learner outline aligned to the revised 39-slide presentation. This is a 
 
 [Official reference 1](https://learn.microsoft.com/en-us/copilot/overview) · [Official reference 2](https://learn.microsoft.com/en-us/copilot/privacy-and-protections)
 
-## Slide 37: A structured review request
+## Slide 38: A structured review request
 
 **Block 4 · 15:30–15:40 · 10 minutes**
 
@@ -373,7 +387,7 @@ English learner outline aligned to the revised 39-slide presentation. This is a 
 
 [Official reference 1](https://learn.microsoft.com/en-us/copilot/overview) · [Official reference 2](https://learn.microsoft.com/en-us/copilot/privacy-and-protections)
 
-## Slide 38: Review decisions and handover
+## Slide 39: Review decisions and handover
 
 **Block 4 · 15:40–15:57 · 17 minutes**
 
@@ -385,7 +399,7 @@ English learner outline aligned to the revised 39-slide presentation. This is a 
 
 [Official reference 1](https://learn.microsoft.com/en-us/copilot/overview) · [Official reference 2](https://learn.microsoft.com/en-us/copilot/privacy-and-protections)
 
-## Slide 39: Outputs and next steps
+## Slide 40: Outputs and next steps
 
 **Block 4 · 15:57–16:00 · 3 minutes**
 
