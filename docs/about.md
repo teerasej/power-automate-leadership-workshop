@@ -31,7 +31,8 @@ By the end of the workshop, you can:
 - No prior Power Automate building experience is required.
 - Complete the pre-workshop survey when provided. The facilitator will connect available findings to the opening discussion. If findings are unavailable, use the fictional training-request case.
 - Be ready to describe one repetitive process at a non-confidential level, or use the supplied fictional case.
-- Work in groups of 4–6, adjusted to the room. Bring sticky notes, pens, and large paper. The facilitator supplies physical Flow cards separately.
+- Work in groups of 4–6, adjusted to the room. Bring sticky notes, pens or pencils, blank A4 paper, and flipchart paper. The facilitator supplies physical Flow cards separately.
+- Exercise 1 needs no participant computer, account, download, or opened file. Follow the projected prompts and the facilitator's spoken instructions.
 - Paper activities require no Power Automate account or paid Power Automate licence. You will not build or deploy a flow.
 - For the final review, use Copilot Chat with the work or school account approved by your coordinator. Confirm sign-in, eligibility, and organisation settings before class. A separate Microsoft 365 Copilot add-on licence is not required for the basic chat activity, but an eligible Microsoft 365 subscription is required.
 - Microsoft documentation now uses **Microsoft Copilot Chat** for the experience previously called **Microsoft 365 Copilot Chat**. Labels may vary during the transition. We use **Copilot Chat** in these materials.

@@ -1,6 +1,6 @@
 # Batch 1 activity worksheets
 
-Copy these templates onto paper or print them for your group. Blank fields are for learner input, not confirmed information.
+These templates are optional references for review after the activity. Exercise 1 uses two blank A4 sheets, sticky notes, and a flipchart instead of opening or printing Worksheets 1A–1C. Blank fields are for learner input, not confirmed information.
 
 ## 1A. Before and after automation
 
