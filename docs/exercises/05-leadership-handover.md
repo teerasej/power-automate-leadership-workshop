@@ -103,7 +103,7 @@ The revised map is clearer than the first draft, and the group can distinguish i
 
 **Learner output:** A completed Worksheet 6C and three agreed presentation points.
 
-1. Complete Worksheet 6C: Leadership Handover Card.
+1. Complete [Worksheet 6C: Leadership Handover Card](/resources/worksheets#_6c-leadership-handover-card).
 2. Record useful Generative AI feedback, changes made to the map, and questions that still need confirmation.
 3. Confirm the process owner, expected benefit, measurement approach, people affected, support needs, next decision, responsible role, and follow-up date.
 4. Prepare three presentation points:
