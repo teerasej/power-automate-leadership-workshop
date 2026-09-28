@@ -1,48 +1,48 @@
 ---
 title: "Group 1: Email attachment intake"
-description: "Thai Flow-card challenge for Group 1"
+description: "Flow-card challenge for Group 1"
 ---
 
 # Group 1: Email attachment intake
 
-## สถานการณ์
+## Scenario
 
-ทีมได้รับอีเมลคำขอพร้อมเอกสารประกอบหลายไฟล์ ต้องตรวจว่าอีเมลมีไฟล์แนบหรือไม่ หากมีให้จัดเก็บไฟล์ทุกไฟล์ไว้ในโฟลเดอร์ที่กำหนด หากไม่มีให้แจ้งผู้ส่งว่าต้องส่งเอกสารเพิ่มเติม
+The team receives request emails that may include several supporting documents. The workflow must check whether an email has attachments. If it does, every attachment must be saved in the designated folder. If it does not, the sender must be asked to provide the missing documents.
 
-ใช้ข้อมูลสมมติเท่านั้น ห้ามใช้ชื่อบุคคล ข้อมูลลูกค้า เลขเคส หรือเอกสารจริง
+Use fictional information only. Do not use real names, customer information, case numbers, or documents.
 
 ## Challenge
 
-จัด Flow cards ให้แสดงตั้งแต่การรับอีเมลจนถึงผลลัพธ์ต่อไปนี้:
+Arrange the Flow cards to show the process from receiving the email to one of these outcomes:
 
-- อีเมลที่มีไฟล์แนบ: ทุกไฟล์ถูกจัดเก็บครบ
-- อีเมลที่ไม่มีไฟล์แนบ: ผู้ส่งได้รับข้อความขอเอกสารเพิ่มเติม
+- Email with attachments: every attachment is saved.
+- Email without attachments: the sender receives a request for the missing documents.
 
-> **ขอบเขต:** ใช้เฉพาะ Trigger, Action และ Control cards ที่มีอยู่ในชุดจริงเท่านั้น ใช้ post-it ได้เฉพาะบทบาทเจ้าของงาน จุดตัดสินใจ ขั้นตอนที่ต้องใช้การ์ดใบเดิมซ้ำ และเรื่องที่ต้องตรวจสอบ ห้ามเขียนชื่อ Trigger หรือ Action ใหม่บน post-it
+> **Boundary:** Use only the Trigger, Action, and Control cards in the physical deck. Use sticky notes only for responsible roles, business decisions, steps that require a physical card to be repeated, and unresolved checks. Do not write a new Trigger or Action name on a sticky note.
 
-## ข้อมูลทดสอบ
+## Test data
 
-### กรณีปกติ
+### Normal case
 
 - Subject: `Service case documents`
-- ผู้ส่งแนบไฟล์สมมติ 2 ไฟล์: `request.pdf` และ `evidence.jpg`
-- ผลที่คาดหวัง: ทั้งสองไฟล์ไปถึงโฟลเดอร์ปลายทาง
+- The sender includes two fictional files: `request.pdf` and `evidence.jpg`.
+- Expected outcome: both files reach the destination folder.
 
-### กรณียกเว้น
+### Exception case
 
 - Subject: `Service case documents — follow-up`
-- ไม่มีไฟล์แนบ
-- ผลที่คาดหวัง: ไม่สร้างไฟล์เปล่า และมีการแจ้งขอเอกสารเพิ่มเติม
+- There are no attachments.
+- Expected outcome: no empty file is created, and the sender is asked to provide the missing documents.
 
-## ก่อนเริ่มเรียงการ์ด
+## Before arranging the cards
 
-1. เขียนคำถาม Yes/No ที่ใช้แยกสองเส้นทาง
-2. ระบุข้อมูลที่แต่ละ Action ต้องรับจากการ์ดก่อนหน้า
-3. แสดงให้เห็นว่าจะจัดการไฟล์แนบมากกว่าหนึ่งไฟล์อย่างไร
-4. ติด post-it `Needs verification` ข้างโฟลเดอร์ สิทธิ์ หรือ Connector ที่ยังไม่ยืนยัน
+1. Write the Yes/No question that separates the two paths.
+2. Identify the information each Action must receive from the preceding card.
+3. Show how the flow handles more than one attachment.
+4. Add a `Needs verification` sticky note beside any unconfirmed folder, permission, or connector.
 
 ## Checkpoint
 
-สมาชิกอีกคนสามารถเดินตามการ์ดได้ทั้งสองกรณี โดยทุกไฟล์ในกรณีปกติถูกจัดเก็บ และกรณีไม่มีไฟล์แนบจบที่การแจ้งผู้ส่งอย่างชัดเจน
+Another participant can walk through both cases. Every file in the normal case is saved, and the no-attachment case ends with a clear request to the sender.
 
-[กลับไป Practice 1](/exercises/04-workflow-blueprint#practice-1) · [ไป Group 2](/exercises/04-workflow-blueprint/group-2)
+[Back to Practice 1](/exercises/04-workflow-blueprint#practice-1) · [Next: Group 2](/exercises/04-workflow-blueprint/group-2)

@@ -1,49 +1,49 @@
 ---
 title: "Group 5: Teams service-request routing"
-description: "Thai Flow-card challenge for Group 5"
+description: "Flow-card challenge for Group 5"
 ---
 
 # Group 5: Teams service-request routing
 
-## สถานการณ์
+## Scenario
 
-ทีมใช้ Channel `Service Intake` รับคำขอบริการภายใน ข้อความที่ขึ้นต้นด้วย `[URGENT]` ต้องแจ้งบทบาทเวรรับผิดชอบทางอีเมล ส่วนข้อความปกติต้องถูกส่งต่อไปยัง Channel `Service Queue`
+The team uses the `Service Intake` channel to receive internal service requests. A message that begins with `[URGENT]` must notify the on-duty role by email. A normal message must be forwarded to the `Service Queue` channel.
 
-ห้ามใช้ข้อความหรือข้อมูลผู้ใช้จริงในการทดสอบ
+Do not use real messages or user information during testing.
 
 ## Challenge
 
-จัด Flow cards ให้ตรวจข้อความใหม่ระดับบนสุดใน Channel แล้วแยกเส้นทางตาม tag `[URGENT]` โดยต้องไม่สร้างวงจรที่ workflow เรียกตัวเองซ้ำ
+Arrange the Flow cards to check a new top-level channel message and branch according to the `[URGENT]` tag without creating a loop that triggers the workflow again.
 
-> **ขอบเขต:** ใช้เฉพาะ node cards ในชุดจริง ห้ามเพิ่ม Action สำหรับสร้าง ticket มอบหมายบุคคล หรือแก้ไขข้อความ เพราะไม่มีการ์ดเหล่านั้นในชุด
+> **Boundary:** Use only the node cards in the physical deck. Do not add an Action for creating a ticket, assigning a person, or editing a message because those cards are not available.
 
-## ข้อมูลทดสอบ
+## Test data
 
-### กรณีปกติ
+### Normal case
 
-- Channel ต้นทาง: `Service Intake`
-- ข้อความระดับบนสุด: `Please review the new internal request.`
-- ผลที่คาดหวัง: ข้อความถูกส่งไป `Service Queue` ซึ่งเป็นคนละ Channel
+- Source channel: `Service Intake`
+- Top-level message: `Please review the new internal request.`
+- Expected outcome: the message is sent to `Service Queue`, which is a different channel.
 
-### กรณียกเว้น
+### Exception case
 
-- Channel ต้นทาง: `Service Intake`
-- ข้อความระดับบนสุด: `[URGENT] Service interruption reported.`
-- ผลที่คาดหวัง: บทบาทเวรรับผิดชอบได้รับอีเมล
+- Source channel: `Service Intake`
+- Top-level message: `[URGENT] Service interruption reported.`
+- Expected outcome: the on-duty role receives an email.
 
-### ข้อจำกัดที่ต้องลองอธิบาย
+### Limitation to explain
 
-- หากข้อความเป็น **Reply** ใต้โพสต์เดิม Trigger ในชุดนี้จะไม่เริ่ม workflow
+- If the message is a **Reply** to an existing post, the Trigger in this deck will not start the workflow.
 
-## ก่อนเริ่มเรียงการ์ด
+## Before arranging the cards
 
-1. เขียนคำถาม Yes/No ที่ตรวจ tag ต้นข้อความ
-2. ระบุ Channel ต้นทางและ Channel ปลายทางให้ต่างกัน
-3. ใช้ post-it ระบุบทบาทเวรรับผิดชอบและผู้ดูแล Channel
-4. ติด `Needs verification` ข้างสิทธิ์ Teams และการเปิดใช้ Workflows app
+1. Write the Yes/No question that checks the tag at the beginning of the message.
+2. Make the source and destination channels different.
+3. Use sticky notes to identify the on-duty role and the channel owner.
+4. Add `Needs verification` beside the Teams permissions and Workflows app availability.
 
 ## Checkpoint
 
-กลุ่มเดินทดสอบข้อความปกติและเร่งด่วนได้ อธิบายกรณี Reply ได้ และไม่มีเส้นทางใดโพสต์กลับไปยัง Channel ที่ Trigger เฝ้าดูอยู่
+The group can walk through both a normal and an urgent message, explain the Reply limitation, and show that no path posts back to the channel monitored by the Trigger.
 
-[ไป Group 4](/exercises/04-workflow-blueprint/group-4) · [กลับไป Practice 1](/exercises/04-workflow-blueprint#practice-1) · [ไป Group 6](/exercises/04-workflow-blueprint/group-6)
+[Previous: Group 4](/exercises/04-workflow-blueprint/group-4) · [Back to Practice 1](/exercises/04-workflow-blueprint#practice-1) · [Next: Group 6](/exercises/04-workflow-blueprint/group-6)

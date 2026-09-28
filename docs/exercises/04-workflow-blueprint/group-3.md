@@ -1,51 +1,51 @@
 ---
 title: "Group 3: Field-support request routing"
-description: "Thai Flow-card challenge for Group 3"
+description: "Flow-card challenge for Group 3"
 ---
 
 # Group 3: Field-support request routing
 
-## สถานการณ์
+## Scenario
 
-ทีมภาคสนามส่งคำขอสนับสนุนผ่านแบบฟอร์ม โดยต้องระบุหัวข้อ ช่องทางติดต่อ ระดับความเร่งด่วน และรายละเอียด ทีมส่วนกลางต้องอ่านคำตอบ แล้วแยกคำขอที่พร้อมดำเนินการออกจากคำขอที่ข้อมูลไม่ครบ
+The field team submits support requests through a form. Each request must include a subject, contact details, urgency level, and description. The central team must read the response and separate requests that are ready to proceed from requests with missing information.
 
-ใช้ผู้ขอและข้อมูลติดต่อสมมติเท่านั้น
+Use fictional requesters and contact details only.
 
 ## Challenge
 
-จัด Flow cards ให้รับคำตอบจากแบบฟอร์ม อ่านรายละเอียด และพาคำขอไปยังหนึ่งในสองผลลัพธ์:
+Arrange the Flow cards to receive a form response, retrieve its details, and direct the request to one of two outcomes:
 
-- ข้อมูลครบ: แจ้งทีมรับช่วงใน Microsoft Teams
-- ข้อมูลไม่ครบ: ส่งอีเมลขอรายละเอียดเพิ่มเติม
+- Complete information: notify the receiving team in Microsoft Teams.
+- Missing information: send an email asking for the missing details.
 
-> **ขอบเขต:** ใช้เฉพาะ node cards ในชุดจริง ห้ามเพิ่ม Action สำหรับบันทึกฐานข้อมูล มอบหมายงาน หรืออัปเดตสถานะ หากไม่มีการ์ดนั้นในภาพ
+> **Boundary:** Use only the node cards in the physical deck. Do not add an Action for saving to a database, assigning work, or updating a status because those cards are not available.
 
-## ข้อมูลทดสอบ
+## Test data
 
-### กรณีปกติ
+### Normal case
 
-- หัวข้อ: `Partner event support`
-- ช่องทางติดต่อ: มีข้อมูล
-- ระดับความเร่งด่วน: `Normal`
-- รายละเอียด: มีข้อมูลครบ
-- ผลที่คาดหวัง: ทีมรับช่วงเห็นข้อความพร้อมข้อมูลที่จำเป็น
+- Subject: `Partner event support`
+- Contact details: provided.
+- Urgency: `Normal`
+- Description: complete.
+- Expected outcome: the receiving team sees a message containing the required information.
 
-### กรณียกเว้น
+### Exception case
 
-- หัวข้อ: `Branch support`
-- ช่องทางติดต่อ: มีข้อมูล
-- รายละเอียด: เว้นว่าง
-- ผลที่คาดหวัง: ผู้ขอได้รับอีเมลระบุข้อมูลที่ต้องเพิ่ม
+- Subject: `Branch support`
+- Contact details: provided.
+- Description: blank.
+- Expected outcome: the requester receives an email identifying the information that must be added.
 
-## ก่อนเริ่มเรียงการ์ด
+## Before arranging the cards
 
-1. ระบุว่า Trigger ส่งค่าใดให้ Action ที่ใช้เปิดรายละเอียดคำตอบ
-2. ใช้แบบฟอร์มเดียวกันตลอดเส้นทาง
-3. เขียนคำถาม Yes/No สำหรับเกณฑ์ “ข้อมูลครบ”
-4. ระบุเจ้าของเกณฑ์บน post-it เพราะระบบไม่ควรกำหนดกติกาธุรกิจเอง
+1. Identify the value that the Trigger passes to the Action that retrieves the response details.
+2. Use the same form throughout the path.
+3. Write the Yes/No question for the “information is complete” rule.
+4. Name the owner of that rule on a sticky note because the system should not define the business rule itself.
 
 ## Checkpoint
 
-กลุ่มเดินทดสอบคำขอครบและไม่ครบได้ โดยข้อมูลจากคำตอบแบบฟอร์มถูกใช้หลังจากดึงรายละเอียดแล้วเท่านั้น
+The group can walk through both a complete and an incomplete request. Information from the form response is used only after the response details have been retrieved.
 
-[ไป Group 2](/exercises/04-workflow-blueprint/group-2) · [กลับไป Practice 1](/exercises/04-workflow-blueprint#practice-1) · [ไป Group 4](/exercises/04-workflow-blueprint/group-4)
+[Previous: Group 2](/exercises/04-workflow-blueprint/group-2) · [Back to Practice 1](/exercises/04-workflow-blueprint#practice-1) · [Next: Group 4](/exercises/04-workflow-blueprint/group-4)
