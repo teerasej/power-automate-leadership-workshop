@@ -5,6 +5,8 @@ description: "English learner instructions for Exercise 3: Select an opportunity
 
 # Exercise 3: Select an opportunity
 
+<ExerciseHeaderImage :exercise="3" />
+
 <CourseProgress :current="3" />
 
 Compare the three pain points using the same criteria, then choose a manageable opportunity with a clear owner.

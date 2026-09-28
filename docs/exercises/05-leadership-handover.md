@@ -5,6 +5,8 @@ description: "English learner instructions for Exercise 5: Improve and present t
 
 # Exercise 5: Improve and present the workflow idea
 
+<ExerciseHeaderImage :exercise="5" />
+
 <CourseProgress :current="5" />
 
 Turn the physical Flow-card idea into a free-form flipchart map. Use a photo and your preferred image-capable Generative AI tool as a second reader, improve the map with human judgement, complete the Leadership Handover Card, and present the idea.

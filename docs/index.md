@@ -38,13 +38,7 @@ Use 15:57–16:00 for your exit reflection. Explanations, Q&A, and checkpoints f
 
 <DownloadDeck />
 
-<a href="/power-automate-leadership-workshop/downloads/strategic-automation-leadership-en-revised-v4.zip" download>Download the complete English learner package</a>
-
-<a href="/power-automate-leadership-workshop/downloads/presentation-outline-en.md" download>Download the Markdown outline</a>
-
 - [Optional fictional case pack and scenario reference](/resources/case-pack)
 - [Worksheets for Exercises 2–5](/resources/worksheets)
-- <a href="/power-automate-leadership-workshop/downloads/strategic-automation-leadership-en-revised-v4.pptx" download>40-slide English PowerPoint</a>
-- [Presentation outline](/resources/presentation-outline)
 
 The supplied Flow-card PDF and images are not part of this digital package. The card arrangement, flipchart map, Generative AI feedback, and facilitator review do not prove technical feasibility or readiness for deployment.

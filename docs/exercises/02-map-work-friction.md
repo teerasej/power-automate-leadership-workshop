@@ -5,7 +5,7 @@ description: "English learner instructions for Exercise 2: Map work and friction
 
 # Exercise 2: Map work and friction
 
-<ExerciseModuleHeader :module="2" />
+<ExerciseHeaderImage :exercise="2" />
 
 <CourseProgress :current="2" />
 

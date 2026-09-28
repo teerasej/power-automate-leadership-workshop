@@ -5,6 +5,8 @@ description: "English learner instructions for Exercise 4: Design with physical 
 
 # Exercise 4: Design with physical Flow cards
 
+<ExerciseHeaderImage :exercise="4" />
+
 <CourseProgress :current="4" />
 
 Arrange a recipe on the table before entering the kitchen. Use the facilitator's printed Flow cards to show the proposed sequence, then add sticky notes for people, exceptions, and unresolved questions.

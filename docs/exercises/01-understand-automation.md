@@ -5,6 +5,8 @@ description: "English learner instructions for Exercise 1: Benefits and boundari
 
 # Exercise 1: Benefits and boundaries of Power Automate
 
+<ExerciseHeaderImage :exercise="1" />
+
 <CourseProgress :current="1" />
 
 Use an internal training-request example to distinguish repeatable rules from decisions that need human judgement. Identify questions a leader should ask before supporting automation.

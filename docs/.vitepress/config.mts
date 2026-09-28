@@ -21,8 +21,7 @@ export default withMermaid(defineConfig({
       { text: 'Exercises', link: '/exercises/01-understand-automation' },
       { text: 'Resources', items: [
         { text: 'Fictional case pack', link: '/resources/case-pack' },
-        { text: 'Worksheets', link: '/resources/worksheets' },
-        { text: 'Presentation outline', link: '/resources/presentation-outline' }
+        { text: 'Worksheets', link: '/resources/worksheets' }
       ] }
     ],
     sidebar: [
@@ -47,8 +46,7 @@ export default withMermaid(defineConfig({
         text: 'Resources',
         items: [
           { text: 'Fictional case pack', link: '/resources/case-pack' },
-          { text: 'Worksheets', link: '/resources/worksheets' },
-        { text: 'Presentation outline', link: '/resources/presentation-outline' }
+          { text: 'Worksheets', link: '/resources/worksheets' }
         ]
       }
     ],
