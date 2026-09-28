@@ -43,7 +43,7 @@ Use 15:57–16:00 for your exit reflection. Explanations, Q&A, and checkpoints f
 <a href="/power-automate-leadership-workshop/downloads/presentation-outline-en.md" download>Download the Markdown outline</a>
 
 - [Optional fictional case pack and scenario reference](/resources/case-pack)
-- [Optional worksheet reference](/resources/worksheets)
+- [Worksheets for Exercises 2–5](/resources/worksheets)
 - [Presentation outline](/resources/presentation-outline)
 
 The supplied Flow-card PDF and images are not part of this digital package. Paper testing checks the clarity of a proposal; it does not prove technical feasibility or readiness for deployment.

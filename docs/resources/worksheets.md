@@ -1,41 +1,6 @@
 # Batch 1 activity worksheets
 
-These templates are optional references for review after the activity. Exercise 1 uses two flipchart sheets, one blank A4 sheet, and sticky notes instead of opening or printing Worksheets 1A–1C. Blank fields are for learner input, not confirmed information.
-
-## 1A. Before and after automation
-
-| Question | Group notes |
-|---|---|
-| Which step repeats or waits? | |
-| What work could the system support? | |
-| Which decision remains with a person? | |
-| What output must be checked? | |
-| What limits or permissions need verification? | |
-
-## 1B. Scenario classification
-
-Use the exact labels from Exercise 1. Check unknown information first, then human judgement, then clear rules. Record the reason instead of relying on the label alone.
-
-| Card | Classification | Reason from the scenario | Unresolved question and verification owner |
-|---|---|---|---|
-| A | | | |
-| B | | | |
-| C | | | |
-| D | | | |
-| E | | | |
-| F | | | |
-
-## 1C. Knowledge-check correction
-
-| Question | First answer and reason | Corrected answer and reason | What must be verified, and by whom? |
-|---|---|---|---|
-| Repeated copying or undefined exceptions? | | | |
-| Do reminders alone remove a delay? | | | |
-| What must be checked before connecting a system? | | | |
-
-Known fact: __________
-
-Matter to verify: __________ Verification owner: __________
+These templates support Exercises 2–5. Exercise 1 uses flipchart sheets, one blank A4 sheet, and sticky notes, so it has no worksheet on this page. Blank fields are for learner input, not confirmed information.
 
 ## 2. Work Friction Map
 

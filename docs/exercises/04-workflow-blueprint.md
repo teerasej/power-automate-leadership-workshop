@@ -11,7 +11,7 @@ description: "English learner instructions for Exercise 4: Design with physical 
 
 Arrange a recipe on the table before entering the kitchen. Use the facilitator's printed Flow cards to show the proposed sequence, then add sticky notes for people, exceptions, and unresolved questions.
 
-**Time:** 14:10–14:25 and 14:45–15:20, 50 minutes total.
+**Time:** 13:40–14:30
 
 > **Licence:** No Power Automate account or paid Power Automate licence is required for this paper activity. The facilitator distributes the physical cards separately; their source files are excluded from this digital package.
 
