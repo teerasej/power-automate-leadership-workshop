@@ -78,20 +78,20 @@ At least three friction points have an impact
 Each pain point points back to a specific place on the map.
 
 
-## Playground activity: Explore a task from your work
+## Playground activity: Explore a business process from your work
 
-**Primary target:** Apply the mapping method to a task that the group finds boring or painful.
+**Primary target:** Apply the mapping method to a business process that the group finds boring or painful.
 
-**Learner output:** One selected task with a current-process map, friction markers, and three pain points.
+**Learner output:** One selected business process with a current-process map, friction markers, and three pain points.
 
-1. Each group member thinks of 3 tasks from their work that feel boring, repetitive, or painful.
-2. Write each task on a separate sticky note. Each person contributes three sticky notes.
-3. Place all the sticky notes on one flipchart. Briefly explain each task to the group without including confidential information.
-4. Give each group member one vote. Vote for the task that looks most painful and most worth exploring for automation.
-5. Select the task with the most votes. If there is a tie, discuss the tied tasks and vote again.
-6. Repeat Practice 1 with the selected task: map its current process from start to end, including roles and handovers.
-7. Repeat Practice 2 with the selected task: mark at least three friction points and add evidence, impact, or an open question.
-8. Repeat Practice 3 with the selected task: choose and label three pain points, A–C, on the map.
+1. Each group member thinks of a business process from their work that feel boring, repetitive, or painful.
+2. Write each business process' name on a separate sticky note. Each person contributes 1 sticky notes.
+3. Place all the sticky notes on one flipchart. Briefly explain each business process to the group without including confidential information.
+4. Give each group member one vote. Vote for the business process that looks most painful and most worth exploring for automation.
+5. Select the business process with the most votes. If there is a tie, discuss the tied processes and vote again.
+6. Repeat Practice 1 with the selected business process: map its current process from start to end, including roles and handovers.
+7. Repeat Practice 2 with the selected business process: mark at least three friction points and add evidence, impact, or an open question.
+8. Repeat Practice 3 with the selected business process: choose and label 3 pain points, A–C, on the map.
 
 ### Checkpoint
 

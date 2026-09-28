@@ -7,7 +7,7 @@ const exercises = [
   ['Work friction map', '/exercises/02-map-work-friction'],
   ['Select an opportunity', '/exercises/03-prioritize-opportunity'],
   ['Workflow Blueprint', '/exercises/04-workflow-blueprint'],
-  ['Leadership Handover', '/exercises/05-leadership-handover']
+  ['Improve and present', '/exercises/05-leadership-handover']
 ]
 </script>
 

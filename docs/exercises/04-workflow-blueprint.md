@@ -5,13 +5,11 @@ description: "English learner instructions for Exercise 4: Design with physical 
 
 # Exercise 4: Design with physical Flow cards
 
-<ExerciseModuleHeader :module="3" />
-
 <CourseProgress :current="4" />
 
 Arrange a recipe on the table before entering the kitchen. Use the facilitator's printed Flow cards to show the proposed sequence, then add sticky notes for people, exceptions, and unresolved questions.
 
-**Time:** 13:50–14:30
+**Time:** 13:50–14:30, including the concept explanation and physical-card activity.
 
 > **Licence:** No Power Automate account or paid Power Automate licence is required for this paper activity. The facilitator distributes the physical cards separately; their source files are excluded from this digital package.
 
@@ -24,7 +22,7 @@ Arrange a recipe on the table before entering the kitchen. Use the facilitator's
 
 > **Card correction:** The supplied `Start and wait for an approval` card is printed as a Trigger. In Power Automate it is an **Action** and belongs after a valid Trigger. Explain this distinction without changing the original card.
 
-## Practice 1: Build the normal path (15 minutes) {#practice-1}
+## Practice 1: Build the normal path (10 minutes) {#practice-1}
 
 **Primary target:** Arrange a path from Trigger to outcome that another person can explain.
 
@@ -48,13 +46,13 @@ Open the challenge assigned to your group. The scenario details are in Thai, whi
 3. Select cards for the main steps and arrange them left to right.
 4. Use sticky notes for missing or repeated steps. Do not add a step simply because the deck contains a card for it.
 5. Add an outcome sticky note. Ask someone else to describe the path from Trigger to outcome.
-6. Record the sequence in Worksheet 4 and leave the cards in place during the break.
+6. Record the sequence in Worksheet 4.
 
 ### Checkpoint
 
 A participant who did not arrange the cards can explain the Trigger, main steps, and normal outcome.
 
-## Practice 2: Add owners and human checkpoints (8 minutes) {#practice-2}
+## Practice 2: Add owners and human checkpoints (10 minutes) {#practice-2}
 
 **Primary target:** Assign responsibility and make human judgement visible at the relevant steps.
 
@@ -63,11 +61,11 @@ A participant who did not arrange the cards can explain the Trigger, main steps,
 1. Revisit the normal path. Remove unnecessary duplication without removing checks.
 2. Add a sticky note naming the person or system responsible for every step.
 3. Mark human review and business decisions, such as the manager deciding whether to approve or reject a request.
+4. Record the owners and human checkpoints in Worksheet 4.
 
 ### Checkpoint
 
 Every visible step has an owner, and each business decision names the person who makes it.
-
 
 ## If you get stuck
 
@@ -77,7 +75,7 @@ Every visible step has an owner, and each business decision names the person who
 
 ## Summary
 
-Keep the tested physical Blueprint and test record. In Exercise 5, describe the design in safe text and ask Copilot Chat to challenge its assumptions.
+Keep the physical card arrangement visible until the break. In Exercise 5, redraw the idea freely on a flipchart, photograph the safe map, and use a Generative AI tool to help the group review it.
 
 ## Official references
 

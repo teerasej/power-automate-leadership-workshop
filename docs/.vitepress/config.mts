@@ -40,7 +40,7 @@ export default withMermaid(defineConfig({
           { text: '2. Work friction map', link: '/exercises/02-map-work-friction' },
           { text: '3. Select an opportunity', link: '/exercises/03-prioritize-opportunity' },
           { text: '4. Workflow Blueprint', link: '/exercises/04-workflow-blueprint' },
-          { text: '5. Leadership Handover', link: '/exercises/05-leadership-handover' }
+          { text: '5. Improve and present', link: '/exercises/05-leadership-handover' }
         ]
       },
       {

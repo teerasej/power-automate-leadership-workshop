@@ -24,8 +24,8 @@ English learner outline aligned to the revised 40-slide presentation. Exercise 1
 **Block 1 · 09:05–09:10 · 5 minutes**
 
 - One justified opportunity
-- A paper-tested Workflow Blueprint
-- A human-reviewed decision record
+- A physical Flow-card draft
+- An improved flipchart flow map
 - A Leadership Handover Card
 
 ## Slide 3: Power Automate in everyday work
@@ -298,7 +298,7 @@ English learner outline aligned to the revised 40-slide presentation. Exercise 1
 
 [Official reference 1](https://learn.microsoft.com/en-us/power-automate/triggers-introduction) · [Official reference 2](https://learn.microsoft.com/en-us/power-automate/get-started-approvals) · [Official reference 3](https://learn.microsoft.com/en-us/power-automate/add-condition)
 
-## Slide 31: Flow cards: the normal path
+## Slide 31: Flow cards: the physical draft
 
 **Block 3 · 14:10–14:25 · 15 minutes**
 
@@ -317,100 +317,90 @@ English learner outline aligned to the revised 40-slide presentation. Exercise 1
 
 - One selected opportunity
 - A visible Trigger-to-outcome path
-- After the break: people and exceptions
+- After the break: redraw the idea freely
 
-## Slide 33: Flow cards: people and exceptions
+## Slide 33: The free-form flow map
 
-**Block 4 · 14:45–15:05 · 20 minutes**
+**Block 4 · 14:45–14:55 · 10 minutes**
 
-- Name owners and human checkpoints
-- Show justified branches and both outcomes
-- Own missing-information, rejection, and stalled-work routes
+- Use the cards as inspiration
+- Show the start, sequence, people, decisions, exceptions, and outcome
+- Exact Power Automate names are optional
 
-[Exercise instructions](https://teerasej.github.io/power-automate-leadership-workshop/exercises/04-workflow-blueprint)
+[Exercise instructions](https://teerasej.github.io/power-automate-leadership-workshop/exercises/05-leadership-handover)
 
 [Official reference 1](https://learn.microsoft.com/en-us/power-automate/get-started-approvals) · [Official reference 2](https://learn.microsoft.com/en-us/power-automate/add-condition)
 
-## Slide 34: Walk-test two cases
+## Slide 34: A safe workflow photo
 
-**Block 4 · 15:05–15:20 · 15 minutes**
+**Block 4 · 14:55–15:00 · 5 minutes**
 
-- R-101: normal path
-- R-102 or R-103: exception path
-- Record gaps, revise, and retest
-
-[Exercise instructions](https://teerasej.github.io/power-automate-leadership-workshop/exercises/04-workflow-blueprint)
-
-## Slide 35: Text for Copilot review
-
-**Block 4 · 15:20–15:25 · 5 minutes**
-
-- Problem and intended outcome
-- Steps, branches, and human decisions
-- Assumptions and verification questions
+- Remove names, confidential details, faces, and badges
+- Photograph the map straight on
+- Crop tightly and ask a second person to check
 
 [Exercise instructions](https://teerasej.github.io/power-automate-leadership-workshop/exercises/05-leadership-handover)
 
-[Official reference 1](https://learn.microsoft.com/en-us/copilot/overview) · [Official reference 2](https://learn.microsoft.com/en-us/copilot/privacy-and-protections)
+## Slide 35: Generative AI as a second reader
 
-## Slide 36: Copilot as a second reader
+**Block 4 · 15:00–15:03 · 3 minutes**
 
-**Block 4 · 15:25–15:27 · 2 minutes**
-
-- Reviews the safe brief
-- Surfaces gaps and verification questions
-- People judge every item
+- Use ChatGPT, Gemini, Claude, Copilot, or another available tool
+- Suggestions may be wrong or unsuitable
+- People decide what improves the map
 
 [Exercise instructions](https://teerasej.github.io/power-automate-leadership-workshop/exercises/05-leadership-handover)
 
-[Official reference 1](https://learn.microsoft.com/en-us/copilot/overview) · [Official reference 2](https://learn.microsoft.com/en-us/copilot/privacy-and-protections)
+## Slide 36: Photo review and human revision
 
-## Slide 37: Human judgement after Copilot
+**Block 4 · 15:03–15:15 · 12 minutes**
 
-**Block 4 · 15:27–15:30 · 3 minutes**
-
-- Paper test before AI review
-- A decision for every suggestion
-- No more than two changes
-
-[Official reference 1](https://learn.microsoft.com/en-us/copilot/overview) · [Official reference 2](https://learn.microsoft.com/en-us/copilot/privacy-and-protections)
-
-## Slide 38: A structured review request
-
-**Block 4 · 15:30–15:40 · 10 minutes**
-
-- Goal and Context
-- Source
-- Expectation: maximum four items
+- Upload the safe photo with the supplied prompt
+- Check missing steps, owners, decisions, exceptions, and open questions
+- Revise the map freely with human judgement
 
 [Exercise instructions](https://teerasej.github.io/power-automate-leadership-workshop/exercises/05-leadership-handover)
 
-[Official reference 1](https://learn.microsoft.com/en-us/copilot/overview) · [Official reference 2](https://learn.microsoft.com/en-us/copilot/privacy-and-protections)
+## Slide 37: Leadership Handover Card
 
-## Slide 39: Review decisions and handover
+**Block 4 · 15:15–15:22 · 7 minutes**
 
-**Block 4 · 15:40–15:57 · 17 minutes**
-
-- Judge every item: 7 minutes
-- Apply no more than two changes: 5 minutes
-- Complete the Handover Card: 7 minutes
+- Useful AI feedback and changes made
+- Questions still requiring confirmation
+- Owner, expected benefit, measure, and next decision
 
 [Exercise instructions](https://teerasej.github.io/power-automate-leadership-workshop/exercises/05-leadership-handover)
 
-[Official reference 1](https://learn.microsoft.com/en-us/copilot/overview) · [Official reference 2](https://learn.microsoft.com/en-us/copilot/privacy-and-protections)
+## Slide 38: Three presentation points
+
+**Block 4 · 15:22–15:27 · 5 minutes**
+
+- Problem and expected benefit
+- How the flow works and where people remain responsible
+- Next decision, owner, and most important open question
+
+[Exercise instructions](https://teerasej.github.io/power-automate-leadership-workshop/exercises/05-leadership-handover)
+
+## Slide 39: Six group presentations
+
+**Block 4 · 15:27–15:57 · 30 minutes**
+
+- 3 minutes: present the improved flow map
+- 2 minutes: facilitator feedback
+- Record one useful follow-up on Worksheet 6C
+
+[Exercise instructions](https://teerasej.github.io/power-automate-leadership-workshop/exercises/05-leadership-handover)
 
 ## Slide 40: Outputs and next steps
 
 **Block 4 · 15:57–16:00 · 3 minutes**
 
-- One opportunity and tested Blueprint
-- A human-reviewed decision record
+- One selected opportunity
+- An improved flow map presented to the workshop
 - A Handover Card with a clear next decision
-
-[Official reference 1](https://learn.microsoft.com/en-us/copilot/overview) · [Official reference 2](https://learn.microsoft.com/en-us/copilot/privacy-and-protections)
 
 ## Use and limits
 
-The 2D editorial scenes are AI-generated fictional illustrations. Diagrams and numerical case evidence are teaching examples, not records of organisational performance. Physical card source files are distributed separately and are not included here. Copilot or facilitator-fallback review follows paper testing; every review item receives a human decision and no more than two changes are applied. Neither path certifies feasibility, compliance, licensing, or readiness.
+The 2D editorial scenes are AI-generated fictional illustrations. Diagrams and numerical case evidence are teaching examples, not records of organisational performance. Physical card source files are distributed separately and are not included here. Groups may use any available image-capable Generative AI tool to review a sanitised photo of the free-form map. Learners decide which suggestions fit. Generative AI feedback and facilitator review do not certify feasibility, compliance, licensing, connector availability, permissions, or readiness.
 
 [Course home](https://teerasej.github.io/power-automate-leadership-workshop/)

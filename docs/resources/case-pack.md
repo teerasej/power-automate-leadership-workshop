@@ -37,9 +37,9 @@ These figures support practice only. They do not promise automation benefits.
 | Chasing approval status | The coordinator reviews pending requests daily | Does the manager lack review time or clear decision criteria? |
 | Missing request information | 12 of 60 requests in one sample month lack information | Which fields are required, and who defines completeness? |
 
-## Cases for the paper walk-test
+## Optional situations to consider in the flow map
 
-| ID | Input | What to test |
+| ID | Input | What the map should make clear |
 |---|---|---|
 | R-101 | Topic and date supplied; 12 participants; reason supplied | Normal path until the requester knows the outcome |
 | R-102 | Topic supplied; date blank; 8 participants; reason supplied | Who requests missing details, and where does progress stop? |
@@ -55,7 +55,7 @@ Agree any additional rules as proposals and label them accordingly. This case do
 - Add ordinary sticky notes for human decisions, process owners, required information, exceptions, outcomes, and repeated steps.
 - Mark unconfirmed connectors, permissions, licences, policies, and data **Needs verification**.
 - The supplied `Start and wait for an approval` card is printed as a Trigger. Place it as an **Action** after a valid Trigger without altering the original.
-- Card arrangement and paper testing check conceptual clarity. They do not prove that the flow will run in a tenant.
+- The card arrangement and AI-assisted map review support conceptual clarity. They do not prove that the flow will run in a tenant.
 
 For this case, a group might propose an email-arrival Trigger, a completeness Condition, an approval Action on the complete path, and notification steps. Use sticky notes for missing or repeated steps. This is an illustrative proposal, not a verified solution or a list of connectors enabled for your organisation.
 

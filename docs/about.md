@@ -15,9 +15,9 @@ By the end of the workshop, you can:
 2. Map a current process with 5–8 steps, roles, handovers, and evidence-linked friction.
 3. Screen three opportunities for readiness and justify one manageable candidate.
 4. Define a Workflow Blueprint using a Trigger, Actions, Conditions where needed, human checkpoints, and owned exception routes.
-5. Walk-test a normal case and an exception case, then record gaps without claiming tenant feasibility.
-6. Judge review items as **Adopt**, **Adapt**, **Verify**, or **Reject**.
-7. Produce a Leadership Handover Card with scope, owner, baseline, unresolved checks, next decision, and follow-up date.
+5. Redraw the Flow-card idea as a clear, free-form map and prepare a safe photo for review.
+6. Use a preferred Generative AI tool as a second reader, then decide which feedback improves the map.
+7. Produce and present a Leadership Handover Card with scope, owner, expected benefit, unresolved checks, next decision, and follow-up date.
 
 ## Course structure
 
@@ -34,13 +34,10 @@ By the end of the workshop, you can:
 - Work in groups of 4–6, adjusted to the room. Exercise 1 uses two flipchart sheets, one blank A4 sheet, six scenario sticky notes, five sticky notes per participant, and pens or pencils. The facilitator supplies physical Flow cards separately for later exercises.
 - Exercise 1 needs no participant computer, account, download, or opened file. Follow the projected prompts and the facilitator's spoken instructions.
 - Paper activities require no Power Automate account or paid Power Automate licence. You will not build or deploy a flow.
-- For the final review, use Copilot Chat with the work or school account approved by your coordinator. Confirm sign-in, eligibility, and organisation settings before class. A separate Microsoft 365 Copilot add-on licence is not required for the basic chat activity, but an eligible Microsoft 365 subscription is required.
-- Microsoft documentation now uses **Microsoft Copilot Chat** for the experience previously called **Microsoft 365 Copilot Chat**. Labels may vary during the transition. We use **Copilot Chat** in these materials.
-- Use the supplied fictional case or a general process description. Do not enter personal, customer, confidential, or unauthorised operational information into Copilot Chat.
-- If live Copilot Chat access is unavailable, use the facilitator-authored fallback response. Label it as simulated review input, not tenant evidence.
+- For the final review, each group may use any available image-capable Generative AI tool, such as ChatGPT, Gemini, Claude, or Copilot.
+- Use only the supplied fictional case or a sanitised process map. Before upload, remove personal, customer, confidential, unauthorised operational, and identifying visual information from the photo.
+- If internet access, an account, or image upload is unavailable, use the facilitator-led review questions in Exercise 5.
 
 ## Official references
 
 - [Power Automate triggers](https://learn.microsoft.com/en-us/power-automate/triggers-introduction)
-- [Copilot Chat overview and eligibility](https://learn.microsoft.com/en-us/copilot/overview)
-- [Copilot Chat privacy and protections](https://learn.microsoft.com/en-us/copilot/privacy-and-protections)

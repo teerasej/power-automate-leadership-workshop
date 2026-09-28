@@ -1,6 +1,23 @@
 # Batch 1 activity worksheets
 
-These templates support Exercises 2–5. Exercise 1 uses flipchart sheets, one blank A4 sheet, and sticky notes, so it has no worksheet on this page. Blank fields are for learner input, not confirmed information.
+These templates support Exercises 2–5. Exercise 1 uses flipchart sheets, one blank A4 sheet, and sticky notes, so it has no worksheet in this file. Exercise 5 uses Worksheet 6C and the group's improved flipchart map. Blank fields are for learner input, not confirmed information.
+
+## 2. Work Friction Map
+
+Process: __________ Start: __________ End: __________
+
+| Step | Responsible role | Information or status received | Information or status passed on | Friction | Evidence or unknowns |
+|---|---|---|---|---|---|
+| | | | | | |
+| | | | | | |
+| | | | | | |
+| | | | | | |
+| | | | | | |
+| | | | | | |
+| | | | | | |
+| | | | | | |
+
+Three pain points to compare: A __________ / B __________ / C __________
 
 ## 3. Opportunity Selection
 
@@ -10,22 +27,13 @@ Scores from 1–3 support a discussion. They are not an ROI formula.
 
 Screen every pain point before comparing scores. A high score never overrides a stop condition.
 
-#### How to use the readiness gate
-
-1. Review pain points A, B, and C one row at a time.
-2. For each question, write **Yes**, **No**, or **Needs verification**. Use known evidence rather than assumptions.
-3. If you write **Needs verification**, record the open question and the role responsible for answering it in **Gate status and reason**.
-4. Do not count or total the answers. One confirmed **Yes** is enough to mark the pain point **Do not progress in this workshop**.
-5. If there is no confirmed stop condition but an answer still needs verification, mark the pain point **Explore after validation**.
-6. If every answer is **No**, mark the pain point **Proceed to compare** and briefly record why.
-
 | Pain point | Sensitive or restricted data? | Material harm if wrong? | Rules unstable? | Frequent unowned exceptions? | Owner missing? | Gate status and reason |
 |---|---|---|---|---|---|---|
 | A | | | | | | |
 | B | | | | | | |
 | C | | | | | | |
 
-#### Use one status on the gate column for each pain point:
+Use one status:
 
 - **Proceed to compare**: no stop condition identified; compare it with the same criteria as the others.
 - **Explore after validation**: a responsible role must validate a gap before the idea progresses.
@@ -43,7 +51,7 @@ Screen every pain point before comparing scores. A high score never overrides a 
 | B | | | | | | | |
 | C | | | | | | | |
 
-Selected opportunity: __________ 
+Selected opportunity: __________ Reason: __________
 
 Start event: __________ End outcome: __________
 
@@ -93,65 +101,9 @@ Stalled-work route: __________ Owner: __________ Follow-up or escalation point: 
 
 Sticky notes marked **Needs verification**: __________
 
-## 5. Paper walk-test record
-
-| Case | Expected outcome | What happened when following the visible steps? | Gap and correction | Pass or unresolved question |
-|---|---|---|---|---|
-| R-101: normal | | | | |
-| R-102 or R-103: exception | | | | |
-
-Retested path and result: __________ Escalation owner, if needed: __________
-
-Paper testing checks the clarity of the concept. It does not establish that a flow works in a real tenant.
-
-## 6A. Workflow description for Copilot review
-
-Use fictional or sanitised information only. Exclude personal names, customer information, personal data, confidential details, and real operational reference numbers.
-
-- Business problem: __________
-- Intended outcome: __________
-- Agreed start and end boundary: __________
-- Trigger: __________
-- Ordered steps: __________
-- Conditions and Yes/No branches: __________
-- Human review or decisions: __________
-- Missing-information, rejection, or stalled-work paths: __________
-- Known assumptions: __________
-- Matters already marked for verification: __________
-
-Before sending: no personal, customer, confidential, or unauthorised operational information ☐
-
-## 6B. Copilot Suggestion Review
-
-Give every suggestion a decision and reason. Apply no more than two changes to the physical Blueprint.
-
-Review source: ☐ Live Copilot Chat ☐ Facilitator fallback
-
-Review date: __________
-
-If the fallback is used, label the response **Simulated review input — not tenant evidence**.
-
-| Decision | Meaning |
-|---|---|
-| Adopt | Supported and useful as written |
-| Adapt | Useful after modification |
-| Verify | Needs confirmation from a responsible person |
-| Reject | Unsupported, unnecessary, or outside scope |
-
-| Copilot suggestion | Decision | Reason from the case, scope, or test | Change or person to ask |
-|---|---|---|---|
-| 1 | | | |
-| 2 | | | |
-| 3 | | | |
-| 4 | | | |
-
-Selected change 1 and justification: __________
-
-Selected change 2 and justification: __________
-
 ## 6C. Leadership Handover Card
 
-Start this card after opportunity selection. Add exceptions after paper testing, then review decisions after Copilot.
+Start this card after opportunity selection. Complete it after improving the flipchart map with Generative AI review and human judgement.
 
 - Problem and selected opportunity: __________
 - Agreed scope and work that would change: __________
@@ -159,9 +111,9 @@ Start this card after opportunity selection. Add exceptions after paper testing,
 - People or teams to consult: __________
 - People affected by the proposed change: __________
 - Support or communication needed: __________
-- Exceptions found in the paper test: __________
-- Accepted changes following Copilot review: __________
-- Suggestions still marked Verify: __________
+- Useful Generative AI feedback: __________
+- Changes made to the flow map: __________
+- Questions still requiring confirmation: __________
 - Expected benefit: __________
 - Measure and method for collecting a baseline: __________
 - Checks needed to preserve output accuracy: __________
@@ -171,8 +123,9 @@ Start this card after opportunity selection. Add exceptions after paper testing,
 - Next decision: __________
 - Responsible person or role: __________
 - Follow-up date: __________
+- Most useful facilitator feedback: __________
 
-Copilot review is not evidence of technical feasibility, policy compliance, licensing, or deployment readiness.
+Generative AI feedback and facilitator review are not evidence of technical feasibility, policy compliance, licensing, connector availability, or deployment readiness.
 
 ## 7. Exit reflection
 

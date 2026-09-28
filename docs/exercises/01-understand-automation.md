@@ -5,13 +5,11 @@ description: "English learner instructions for Exercise 1: Benefits and boundari
 
 # Exercise 1: Benefits and boundaries of Power Automate
 
-<ExerciseModuleHeader :module="1" />
-
 <CourseProgress :current="1" />
 
 Use an internal training-request example to distinguish repeatable rules from decisions that need human judgement. Identify questions a leader should ask before supporting automation.
 
-**Time:** 09:30–10:30
+**Time:** 09:30–10:10 and 10:45–11:05, 60 minutes total.
 
 > **Licence:** This paper activity requires no paid software licence or Power Automate account. You will not build a flow.
 
@@ -65,13 +63,13 @@ The flipchart canvas identifies a specific change, a human decision owner, a che
 
 **A.** A request arrives in the approved mailbox. Notify the coordinator.
 
-**B.** A request does not match a rule. A manager must decide whether it is suitable.
+**B.** A request does not match an agreed rule. A manager must decide whether it is suitable.
 
-**C.** The date is blank. The rule says: ask the requester for it.
+**C.** The date is blank. The agreed rule says to ask the requester for it.
 
 **D.** Copy data from another system. Access has not been confirmed.
 
-**E.** At the agreed time, remind the person about a waiting request.
+**E.** At the agreed time, remind the agreed person about a waiting request.
 
 **F.** The manager has not decided. Tell the requester it is approved.
 
@@ -86,9 +84,9 @@ All six sticky notes have a classification and reason. Every unresolved question
 **Learner output:** Three revised answer sticky notes per participant and one group A4 record of a known fact, open question, and verification owner.
 
 1. Take three sticky notes and number them 1, 2, and 3.
-2. Answer the first projected question on sticky note 1: what is one task in your work that happens the same way every time?
-3. Answer the second question on sticky note 2: which part of a work process still needs human judgement, and why?
-4. Answer the third question on sticky note 3: what information would you check before automating a task?
+2. Answer the first projected question on sticky note 1: which is easier to explore first, repeated data copying or exceptions without agreed rules? Add a reason.
+3. Answer the second question on sticky note 2: if reminders work but the manager has not decided, has the delay been resolved? Add a reason.
+4. Answer the third question on sticky note 3: if you do not know whether the source system can connect, what should you verify before making a promise?
 5. Compare all three answers with a partner. Rewrite or amend any answer whose reasoning has changed.
 6. Divide the A4 sheet into **Known fact**, **Open question**, and **Verification owner**. Agree one entry for each area after the facilitator's explanation.
 
@@ -104,7 +102,10 @@ Ask the facilitator to repeat the projected case or scenario. Mark unknown rules
 
 You have identified work a system could support and decisions people retain. Use this distinction when mapping friction in Exercise 2.
 
+## Official references
 
+- [Triggers](https://learn.microsoft.com/en-us/power-automate/triggers-introduction)
+- [Approvals and human decisions](https://learn.microsoft.com/en-us/power-automate/get-started-approvals)
 
 [Course home](/) · [Next exercise](/exercises/02-map-work-friction)
 
