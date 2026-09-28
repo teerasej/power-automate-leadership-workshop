@@ -11,7 +11,7 @@ description: "English learner instructions for Exercise 1: Benefits and boundari
 
 Use an internal training-request example to distinguish repeatable rules from decisions that need human judgement. Identify questions a leader should ask before supporting automation.
 
-**Time:** 09:30–10:10 and 10:45–11:05, 60 minutes total.
+**Time:** 09:30–10:30
 
 > **Licence:** This paper activity requires no paid software licence or Power Automate account. You will not build a flow.
 
@@ -22,7 +22,7 @@ Use an internal training-request example to distinguish repeatable rules from de
 - The facilitator will project and read the fictional case, activity prompts, and knowledge-check questions. You do not need a computer, account, download, or opened file.
 - Keep both flipcharts and the A4 sheet for the next exercise.
 
-> **Optional reference after the activity:** The [case pack](/resources/case-pack) and [worksheets](/resources/worksheets) repeat the fictional information and recording formats. They are not required during the live activity.
+> **Optional reference after the activity:** The [case pack](/resources/case-pack) repeats the fictional information. Exercise 1 has no worksheet; keep the group-created flipcharts, A4 sheet, and sticky notes as its record.
 
 ## Practice 1: Compare before and after (20 minutes) {#practice-1}
 
@@ -65,13 +65,13 @@ The flipchart canvas identifies a specific change, a human decision owner, a che
 
 **A.** A request arrives in the approved mailbox. Notify the coordinator.
 
-**B.** A request does not match an agreed rule. A manager must decide whether it is suitable.
+**B.** A request does not match a rule. A manager must decide whether it is suitable.
 
-**C.** The date is blank. The agreed rule says to ask the requester for it.
+**C.** The date is blank. The rule says: ask the requester for it.
 
 **D.** Copy data from another system. Access has not been confirmed.
 
-**E.** At the agreed time, remind the agreed person about a waiting request.
+**E.** At the agreed time, remind the person about a waiting request.
 
 **F.** The manager has not decided. Tell the requester it is approved.
 
