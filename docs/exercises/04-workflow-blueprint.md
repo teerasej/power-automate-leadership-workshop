@@ -28,6 +28,19 @@ Arrange a recipe on the table before entering the kitchen. Use the facilitator's
 
 **Learner output:** A physical normal path and matching Worksheet 4 sequence.
 
+::: tip Start your group challenge
+Open the challenge assigned to your group. The scenario details are in Thai, while every Power Automate card name remains in English exactly as printed on the physical deck.
+
+| Group | Dedicated challenge |
+|---|---|
+| 1 | [Open Group 1 challenge](/exercises/04-workflow-blueprint/group-1) |
+| 2 | [Open Group 2 challenge](/exercises/04-workflow-blueprint/group-2) |
+| 3 | [Open Group 3 challenge](/exercises/04-workflow-blueprint/group-3) |
+| 4 | [Open Group 4 challenge](/exercises/04-workflow-blueprint/group-4) |
+| 5 | [Open Group 5 challenge](/exercises/04-workflow-blueprint/group-5) |
+| 6 | [Open Group 6 challenge](/exercises/04-workflow-blueprint/group-6) |
+:::
+
 1. Read the selected opportunity. Complete “When ... happens, we want ... so that ...” in Worksheet 4.
 2. Choose one Trigger card matching the start event. Add **Needs verification** if connector availability is unknown.
 3. Select cards for the main steps and arrange them left to right.
