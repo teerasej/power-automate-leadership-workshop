@@ -22,8 +22,6 @@ description: Power Automate for leaders — five exercises, 09:00–16:00
 | 14:30–14:45 | Break | |
 | 14:45–16:00 | Block 4 | Draw, photograph, improve, hand over, and present the workflow idea |
 
-Teaching time is 330 minutes. Each of the three topics has 110 minutes. Topic transitions are at 11:05 and 13:55. Pre/post assessments remain outside teaching time.
-
 ## Exercises
 
 1. [Benefits and boundaries](/exercises/01-understand-automation)
@@ -39,5 +37,3 @@ Teaching time is 330 minutes. Each of the three topics has 110 minutes. Topic tr
 
 - [Optional fictional case pack and scenario reference](/resources/case-pack)
 - [Worksheets for Exercises 2–5](/resources/worksheets)
-
-The supplied Flow-card PDF and images are not part of this digital package. The card arrangement, flipchart map, Generative AI feedback, and facilitator review do not prove technical feasibility or readiness for deployment.
