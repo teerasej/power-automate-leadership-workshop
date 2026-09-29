@@ -26,13 +26,12 @@ Teaching time is 330 minutes. Each of the three topics has 110 minutes. Topic tr
 
 ## Exercises
 
-1. [Benefits and boundaries](/exercises/01-understand-automation): 09:30–10:10 and 10:45–11:05.
-2. [Map work and friction](/exercises/02-map-work-friction): 11:15–11:55.
-3. [Select an opportunity](/exercises/03-prioritize-opportunity): 13:10–13:50.
-4. [Design with physical Flow cards](/exercises/04-workflow-blueprint): 13:50–14:30, including the concept explanation.
-5. [Improve and present the workflow idea](/exercises/05-leadership-handover): 14:45–15:57.
+1. [Benefits and boundaries](/exercises/01-understand-automation)
+2. [Map work and friction](/exercises/02-map-work-friction)
+3. [Select an opportunity](/exercises/03-prioritize-opportunity)
+4. [Design with physical Flow cards](/exercises/04-workflow-blueprint)
+5. [Improve and present the workflow idea](/exercises/05-leadership-handover)
 
-Use 15:57–16:00 for your exit reflection. Explanations, Q&A, and checkpoints fill the remaining teaching windows.
 
 ## Learning materials
 
